@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-20",
-  "updated_at": "2026-08-20 16:17:55",
+  "date": "2026-08-21",
+  "updated_at": "2026-08-21 00:29:52",
   "channels": {
     "kbs1": [
       {
@@ -138,12 +138,6 @@
       {
         "title": "성공예감 이대호입니다",
         "start_time": "10:05",
-        "end_time": "10:52",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "1R 민방위훈련 사전 안내방송",
-        "start_time": "10:52",
         "end_time": "10:53",
         "frequency": "97.3MHz"
       },
@@ -204,12 +198,6 @@
       {
         "title": "세상의 모든 정보",
         "start_time": "12:20",
-        "end_time": "12:54",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "1R 민방위훈련 사전 안내방송",
-        "start_time": "12:54",
         "end_time": "12:55",
         "frequency": "97.3MHz"
       },
@@ -244,7 +232,7 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "1R 민방위의날 훈련방송",
+        "title": "뉴스 중계탑",
         "start_time": "14:00",
         "end_time": "14:20",
         "frequency": "97.3MHz"
@@ -594,14 +582,8 @@
         "frequency": "106.1MHz"
       },
       {
-        "title": "2R 민방위의날 훈련방송",
-        "start_time": "14:00",
-        "end_time": "14:20",
-        "frequency": "106.1MHz"
-      },
-      {
         "title": "은가은의 빛나는 트로트",
-        "start_time": "14:20",
+        "start_time": "14:00",
         "end_time": "15:00",
         "frequency": "106.1MHz"
       },
@@ -812,14 +794,14 @@
         "frequency": "104.9MHz"
       },
       {
-        "title": "3R 민방위의날 훈련방송",
+        "title": "3R 14시뉴스",
         "start_time": "14:00",
-        "end_time": "14:20",
+        "end_time": "14:05",
         "frequency": "104.9MHz"
       },
       {
         "title": "출발 멋진 인생, 이지연입니다",
-        "start_time": "14:20",
+        "start_time": "14:05",
         "end_time": "15:00",
         "frequency": "104.9MHz"
       },
@@ -990,6 +972,12 @@
       {
         "title": "가정음악",
         "start_time": "09:00",
+        "end_time": "10:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "가정음악",
+        "start_time": "10:00",
         "end_time": "11:00",
         "frequency": "93.1MHz"
       },
@@ -1006,14 +994,8 @@
         "frequency": "93.1MHz"
       },
       {
-        "title": "1FM 민방위의날 훈련방송",
-        "start_time": "14:00",
-        "end_time": "14:20",
-        "frequency": "93.1MHz"
-      },
-      {
         "title": "명연주 명음반",
-        "start_time": "14:20",
+        "start_time": "14:00",
         "end_time": "16:00",
         "frequency": "93.1MHz"
       },
@@ -1032,12 +1014,12 @@
       {
         "title": "세상의 모든 음악",
         "start_time": "18:00",
-        "end_time": "19:30",
+        "end_time": "20:00",
         "frequency": "93.1MHz"
       },
       {
-        "title": "2026년 8월 클래식FM 실황특집 중계방송",
-        "start_time": "19:30",
+        "title": "FM 실황음악",
+        "start_time": "20:00",
         "end_time": "21:40",
         "frequency": "93.1MHz"
       },
@@ -1182,14 +1164,8 @@
         "frequency": "89.1MHz"
       },
       {
-        "title": "2FM 민방위의날 훈련방송",
-        "start_time": "14:00",
-        "end_time": "14:20",
-        "frequency": "89.1MHz"
-      },
-      {
         "title": "가비의 슈퍼라디오",
-        "start_time": "14:20",
+        "start_time": "14:00",
         "end_time": "14:30",
         "frequency": "89.1MHz"
       },
@@ -1436,7 +1412,7 @@
         "frequency": "95.9MHz"
       },
       {
-        "title": "민방위 훈련 중계",
+        "title": "2시 종합 뉴스",
         "start_time": "14:00",
         "end_time": "14:20",
         "frequency": "95.9MHz"
@@ -1570,14 +1546,8 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "민방위 훈련 중계",
-        "start_time": "14:00",
-        "end_time": "14:20",
-        "frequency": "91.9MHz"
-      },
-      {
         "title": "두시의 데이트 안영미입니다",
-        "start_time": "14:20",
+        "start_time": "14:00",
         "end_time": "16:00",
         "frequency": "91.9MHz"
       },
@@ -1600,7 +1570,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "IDOL RADIO 핫차트 아핫",
+        "title": "IDOL RADIO 시즌4",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -1820,14 +1790,8 @@
         "frequency": "107.7MHz"
       },
       {
-        "title": "민방위 훈련 실황 중계",
-        "start_time": "14:00",
-        "end_time": "14:20",
-        "frequency": "107.7MHz"
-      },
-      {
         "title": "두시탈출 컬투쇼",
-        "start_time": "14:20",
+        "start_time": "14:00",
         "end_time": "16:00",
         "frequency": "107.7MHz"
       },
@@ -1930,7 +1894,7 @@
         "frequency": "103.5MHz"
       },
       {
-        "title": "민방위 훈련 실황 중계",
+        "title": "SBS 낮 종합뉴스",
         "start_time": "14:00",
         "end_time": "14:20",
         "frequency": "103.5MHz"
@@ -2052,14 +2016,8 @@
         "frequency": "인터넷 전용(고릴라M)"
       },
       {
-        "title": "민방위 훈련 실황 중계",
-        "start_time": "14:00",
-        "end_time": "14:20",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
         "title": "Oldies 20",
-        "start_time": "14:20",
+        "start_time": "14:00",
         "end_time": "16:00",
         "frequency": "인터넷 전용(고릴라M)"
       },
@@ -2270,8 +2228,14 @@
         "frequency": "94.5MHz"
       },
       {
-        "title": "슬기로운 라디오생활 2~3부",
+        "title": "슬기로운 라디오생활 2부",
         "start_time": "11:00",
+        "end_time": "11:30",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "슬기로운 라디오생활 3부",
+        "start_time": "11:30",
         "end_time": "11:57",
         "frequency": "94.5MHz"
       },
@@ -2602,13 +2566,13 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 1부",
+        "title": "TBS 정오의 티어로즈 1부",
         "start_time": "12:05",
         "end_time": "12:30",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 2부",
+        "title": "TBS 정오의 티어로즈 2부",
         "start_time": "12:30",
         "end_time": "13:00",
         "frequency": "95.1MHz"
@@ -3080,14 +3044,8 @@
         "frequency": "96.7MHz"
       },
       {
-        "title": "8월 공습대비 민방위 훈련 방송",
-        "start_time": "14:00",
-        "end_time": "14:20",
-        "frequency": "96.7MHz"
-      },
-      {
         "title": "김종서의 러빙유",
-        "start_time": "14:20",
+        "start_time": "14:00",
         "end_time": "15:57",
         "frequency": "96.7MHz"
       },
@@ -3143,7 +3101,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3202,7 +3160,7 @@
         "frequency": "99.1MHz"
       },
       {
-        "title": "FM국악당",
+        "title": "FM국악당 [광주]",
         "start_time": "20:00",
         "end_time": "21:00",
         "frequency": "99.1MHz"
@@ -3222,7 +3180,7 @@
     ],
     "obs": [
       {
-        "title": "(재) 모닝브레이크",
+        "title": "(재) 모닝브레이크 3부",
         "start_time": "00:00",
         "end_time": "01:00",
         "frequency": "99.9MHz"
@@ -3474,7 +3432,7 @@
         "frequency": "99.9MHz"
       },
       {
-        "title": "나만의 Playlist",
+        "title": "나만의 Playlist 2부",
         "start_time": "22:30",
         "end_time": "23:00",
         "frequency": "99.9MHz"
