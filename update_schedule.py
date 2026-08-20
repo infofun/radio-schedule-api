@@ -23,7 +23,7 @@ schedule_data = {
 }
 
 FREQ_MAP = {
-    "kbs1": "711KHz, 97.3MHz",
+    "kbs1": "97.3MHz",
     "kbs2": "106.1MHz",
     "kbs3": "104.9MHz",
     "kbs1fm": "93.1MHz",
