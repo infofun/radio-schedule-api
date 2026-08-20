@@ -72,10 +72,12 @@ def normalize_time(t_str):
     t_str = str(t_str).replace('~', ' ').strip()
     m = re.search(r'^(\d{1,2})[:](\d{2})', t_str)
     if m:
-        return f"{m.group(1).zfill(2)}:{m.group(2)}"
+        h = int(m.group(1)) % 24
+        return f"{h:02d}:{m.group(2)}"
     m2 = re.search(r'^(\d{1,2})$', t_str)
     if m2:
-        return f"{m2.group(1).zfill(2)}:00"
+        h = int(m2.group(1)) % 24
+        return f"{h:02d}:00"
     m3 = re.search(r'^(\d{2})(\d{2})$', t_str)
     if m3:
         h = int(m3.group(1)) % 24
