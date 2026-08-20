@@ -11,6 +11,8 @@ class TLSAdapter(HTTPAdapter):
     def init_poolmanager(self, *args, **kwargs):
         ctx = ssl.create_default_context()
         ctx.set_ciphers('DEFAULT@SECLEVEL=1')
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
         kwargs['ssl_context'] = ctx
         return super(TLSAdapter, self).init_poolmanager(*args, **kwargs)
 
@@ -33,6 +35,7 @@ headers = {
 
 schedule_data = {
     "date": ymd_dash,
+    "updated_at": now.strftime('%Y-%m-%d %H:%M:%S'),
     "channels": {}
 }
 
@@ -163,64 +166,75 @@ def parse_ytn():
 
 def parse_tbs():
     url = "https://tbs.seoul.kr/fm/schedule.do"
-    # Actually, TBS HTML might need specific parsing. Let's do a basic one or fallback to empty.
-    # Since TBS structure changes, we will do our best.
-    res = requests.get(url, headers=headers)
+    res = requests.get(url, headers=headers, verify=False)
     soup = BeautifulSoup(res.text, 'html.parser')
     programs = []
-    # TBS usually uses table or list
     for tr in soup.select('table tbody tr'):
-        ths = tr.select('th')
         tds = tr.select('td')
-        if ths and tds:
-            st = clean_text(ths[0].text)
-            title = clean_text(tds[0].text)
-            programs.append({"title": title, "start_time": st, "end_time": ""})
+        if len(tds) >= 2:
+            st = clean_text(tds[0].text)
+            title = clean_text(tds[1].text)
+            if st and title:
+                programs.append({"title": title, "start_time": st, "end_time": ""})
     if programs: schedule_data["channels"]["tbs"] = programs
 
 def parse_kookbang():
     url = "https://radio.dema.mil.kr/web/api/v1/media/fm/nowProgram/ajaxList.do"
-    # Kookbang is tricky, let's try to get the HTML list
     html_url = "https://m.dema.mil.kr/web/fm/timetable/list.do"
-    res = requests.get(html_url, headers=headers)
-    soup = BeautifulSoup(res.text, 'html.parser')
-    programs = []
-    for li in soup.select('.time_list li'):
-        time_el = li.select_one('.time')
-        title_el = li.select_one('.tit')
-        if time_el and title_el:
-            programs.append({"title": clean_text(title_el.text), "start_time": clean_text(time_el.text), "end_time": ""})
-    if programs: schedule_data["channels"]["kookbang"] = programs
+    try:
+        custom_headers = headers.copy()
+        custom_headers["Referer"] = "https://radio.dema.mil.kr/"
+        res = requests.get(html_url, headers=custom_headers, verify=False, timeout=30)
+        soup = BeautifulSoup(res.text, 'html.parser')
+        programs = []
+        for li in soup.select('.time_list li'):
+            time_el = li.select_one('.time')
+            title_el = li.select_one('.tit')
+            if time_el and title_el:
+                programs.append({"title": clean_text(title_el.text), "start_time": clean_text(time_el.text), "end_time": ""})
+        if programs: schedule_data["channels"]["kookbang"] = programs
+    except Exception as e:
+        print(f"Kookbang error: {e}")
 
 def parse_gugak():
     url = "https://www.igbf.kr/gugak_web/?sub_num=786"
-    res = requests.get(url, headers=headers)
+    res = requests.get(url, headers=headers, verify=False)
     soup = BeautifulSoup(res.text, 'html.parser')
     programs = []
-    for tr in soup.select('.program_table tbody tr'):
-        time_el = tr.select_one('.time')
-        title_el = tr.select_one('.subject')
-        if time_el and title_el:
-            programs.append({"title": clean_text(title_el.text), "start_time": clean_text(time_el.text), "end_time": ""})
+    for tr in soup.select('.program_table tbody tr') + soup.select('table tbody tr'):
+        time_el = tr.select_one('.time, .subject')
+        if not time_el:
+            tds = tr.select('td')
+            if len(tds) >= 2:
+                time_str = clean_text(tds[0].text)
+                title_str = clean_text(tds[1].text)
+                if ":" in time_str:
+                    programs.append({"title": title_str, "start_time": time_str, "end_time": ""})
+        else:
+            title_el = tr.select_one('.subject')
+            time_el = tr.select_one('.time')
+            if time_el and title_el:
+                programs.append({"title": clean_text(title_el.text), "start_time": clean_text(time_el.text), "end_time": ""})
     if programs: schedule_data["channels"]["gugak"] = programs
 
 def parse_obs():
     url = "https://www.obs.co.kr/schedule/?type=radio"
-    res = requests.get(url, headers=headers)
+    res = requests.get(url, headers=headers, verify=False)
     soup = BeautifulSoup(res.text, 'html.parser')
     programs = []
-    for tr in soup.select('.schedule-table tbody tr'):
-        tds = tr.select('td')
-        if len(tds) >= 2:
-            programs.append({"title": clean_text(tds[1].text), "start_time": clean_text(tds[0].text), "end_time": ""})
+    for tr in soup.select('#tbl_radio_schedule tr'):
+        time_td = tr.select_one('td.time')
+        title_td = tr.select_one('td.ft_01 div a')
+        if time_td and title_td:
+            programs.append({"title": clean_text(title_td.text), "start_time": clean_text(time_td.text), "end_time": ""})
     if programs: schedule_data["channels"]["obs"] = programs
 
 def parse_tbn():
     url = f"https://www.tbn.or.kr/broadcast/program.tbn?page_code=6&area_code=1&today={ymd}"
-    res = requests.get(url, headers=headers)
+    res = requests.get(url, headers=headers, verify=False)
     soup = BeautifulSoup(res.text, 'html.parser')
     programs = []
-    for tr in soup.select('table.board_list tbody tr'):
+    for tr in soup.select('table.board_list tbody tr, table tbody tr'):
         tds = tr.select('td')
         if len(tds) >= 3:
             programs.append({"title": clean_text(tds[2].text), "start_time": clean_text(tds[1].text), "end_time": ""})
@@ -228,14 +242,17 @@ def parse_tbn():
 
 def parse_ebs():
     url = f"https://www.ebs.co.kr/schedule?channelCd=RADIO&date={ymd}&onor=RADIO"
-    res = requests.get(url, headers=headers)
+    res = requests.get(url, headers=headers, verify=False)
     soup = BeautifulSoup(res.text, 'html.parser')
     programs = []
-    for li in soup.select('.timeline_list li'):
+    for li in soup.select('.main_timeline > li'):
         time_el = li.select_one('.time')
-        title_el = li.select_one('.tit')
+        title_el = li.select_one('.tit a') or li.select_one('.tit')
         if time_el and title_el:
-            programs.append({"title": clean_text(title_el.text), "start_time": clean_text(time_el.text), "end_time": ""})
+            time_str = clean_text(time_el.text).replace('On Air', '').strip()
+            title_str = clean_text(title_el.text)
+            if time_str and title_str:
+                programs.append({"title": title_str, "start_time": time_str, "end_time": ""})
     if programs: schedule_data["channels"]["ebs"] = programs
 
 def main():
