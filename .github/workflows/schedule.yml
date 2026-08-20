@@ -2,8 +2,12 @@ name: Update Radio Schedule
 
 on:
   schedule:
-    # 매일 자정(KST 00:00)은 UTC 기준 15:00 입니다.
+    # 1. 매일 자정 캘린더 일자 변경 (KST 00:01 -> UTC 15:01)
     - cron: '1 15 * * *'
+    # 2. 라디오 방송일자 변경 및 정규 방송 시작 (KST 05:05 -> UTC 20:05)
+    - cron: '5 20 * * *'
+    # 3. 방송국 담당자 수동 업데이트 반영 시간 (KST 10:00 -> UTC 01:00)
+    - cron: '0 1 * * *'
   workflow_dispatch: # 수동 실행을 위한 트리거
 
 permissions:
@@ -37,6 +41,7 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add schedule.json
-        # 변경사항이 있을 경우에만 커밋
-        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update radio schedule"
+        
+        # 변경사항이 있을 경우에만 커밋 (현재 KST 시간을 커밋 메시지에 포함하면 추적하기 좋습니다)
+        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update radio schedule ($(TZ='Asia/Seoul' date +'%Y-%m-%d %H:%M'))"
         git push
