@@ -76,6 +76,10 @@ def normalize_time(t_str):
     m2 = re.search(r'^(\d{1,2})$', t_str)
     if m2:
         return f"{m2.group(1).zfill(2)}:00"
+    m3 = re.search(r'^(\d{2})(\d{2})$', t_str)
+    if m3:
+        h = int(m3.group(1)) % 24
+        return f"{h:02d}:{m3.group(2)}"
     return t_str
 
 def format_time(t_str):
@@ -208,30 +212,30 @@ def parse_tbsefm():
     if programs: schedule_data["channels"]["tbsefm"] = programs
 
 def parse_kookbang():
-    url = "https://m.dema.mil.kr/web/api/v1/media/fm/timetable/list.do"
+    url = "https://osev.homedia.kr/r_api/api.php"
     try:
-        custom_headers = headers.copy()
-        custom_headers["Referer"] = "https://m.dema.mil.kr/web/media/fm/timetable.do"
-        custom_headers["Content-Type"] = "application/json; charset=UTF-8"
-        custom_headers["Accept"] = "application/json, text/javascript, */*; q=0.01"
-        custom_headers["X-Requested-With"] = "XMLHttpRequest"
-        
-        res = requests.post(url, headers=custom_headers, json={}, verify=False, timeout=30)
+        res = requests.get(url, verify=False, timeout=30)
         res.encoding = 'utf-8'
         data = res.json()
         
         programs = []
-        prog_list = data.get("map", {}).get("list", [])
+        prog_list = data.get("map", {}).get("resultList", [])
+        if not prog_list:
+            prog_list = data.get("map", {}).get("list", [])
         if not prog_list:
             prog_list = data.get("list", [])
             
         for item in prog_list:
-            # 다양한 JSON 키 가능성에 대비
             title = item.get("title") or item.get("program_title") or item.get("pgm_nm") or item.get("pgmNm") or item.get("prgm_nm") or item.get("program_name") or ""
-            time_str = item.get("start_time") or item.get("time") or item.get("brdcStTm") or item.get("brd_time") or item.get("play_time") or item.get("tm") or item.get("broad_time") or ""
+            time_str = item.get("program_time") or item.get("start_time") or item.get("time") or item.get("brdcStTm") or item.get("brd_time") or item.get("play_time") or item.get("tm") or item.get("broad_time") or ""
+            end_time_str = item.get("program_end_time") or item.get("end_time") or ""
             
             if title and time_str:
-                programs.append({"title": clean_text(title), "start_time": normalize_time(time_str), "end_time": ""})
+                programs.append({
+                    "title": clean_text(title), 
+                    "start_time": normalize_time(time_str), 
+                    "end_time": normalize_time(end_time_str) if end_time_str else ""
+                })
                 
         if programs: schedule_data["channels"]["kookbang"] = programs
     except Exception as e:
@@ -245,14 +249,25 @@ def parse_gugak():
     programs = []
     
     rows = soup.select('.program_table tbody tr')
+    if not rows: rows = soup.select('#schedule tr')
     if not rows: rows = soup.select('table tbody tr')
         
     for tr in rows:
         tds = tr.select('td')
-        if not tds: continue
+        # Skip nested dummy rows that contain huge amounts of tds
+        if not tds or len(tds) > 5: continue
         
         time_str = clean_text(tds[0].text)
-        title_str = clean_text(tds[1].text) if len(tds) >= 2 else ""
+        
+        title_str = ""
+        if len(tds) >= 2:
+            a_tag = tds[1].select_one('a')
+            if a_tag:
+                title_str = clean_text(a_tag.text)
+            else:
+                # If no a tag, just get the first text node or raw text, but avoid nested tds
+                # For safety, if there's no a tag, clean_text(tds[1].text) will have to do
+                title_str = clean_text(tds[1].text)
         
         programs.append({
             "title": title_str,
