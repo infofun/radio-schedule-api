@@ -3,7 +3,7 @@ name: Update Radio Schedule
 on:
   schedule:
     # 매일 자정(KST 00:00)은 UTC 기준 15:00 입니다.
-    - cron: '0 15 * * *'
+    - cron: '1 15 * * *'
   workflow_dispatch: # 수동 실행을 위한 트리거
 
 permissions:
