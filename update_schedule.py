@@ -1,9 +1,23 @@
 import os
 import json
 import requests
+import ssl
+from requests.adapters import HTTPAdapter
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import pytz
+
+class TLSAdapter(HTTPAdapter):
+    def init_poolmanager(self, *args, **kwargs):
+        ctx = ssl.create_default_context()
+        ctx.set_ciphers('DEFAULT@SECLEVEL=1')
+        kwargs['ssl_context'] = ctx
+        return super(TLSAdapter, self).init_poolmanager(*args, **kwargs)
+
+session = requests.Session()
+session.mount('https://', TLSAdapter())
+requests.get = session.get
+
 
 KST = pytz.timezone('Asia/Seoul')
 now = datetime.now(KST)
