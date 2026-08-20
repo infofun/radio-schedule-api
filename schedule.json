@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updated_at": "2026-08-20 14:29:49",
+  "updated_at": "2026-08-20 15:23:26",
   "channels": {
     "kbs1": [
       {
@@ -3004,79 +3004,85 @@
       {
         "title": "송지원의 국악산책(재)",
         "start_time": "00:00",
-        "end_time": "",
+        "end_time": "02:00",
         "frequency": "99.1MHz"
       },
       {
         "title": "송지원의 국악산책(재)",
         "start_time": "00:00",
-        "end_time": "",
+        "end_time": "02:00",
         "frequency": "99.1MHz"
       },
       {
         "title": "흐르는 음악처럼 [광주] 솔바람 물소리 [대전]",
         "start_time": "02:00",
-        "end_time": "",
+        "end_time": "05:00",
         "frequency": "99.1MHz"
       },
       {
         "title": "이한철의 창호에 드린 햇살",
         "start_time": "07:00",
-        "end_time": "",
+        "end_time": "09:00",
         "frequency": "99.1MHz"
       },
       {
         "title": "송지원의 국악산책 남도마실 [광주] 꿈꾸는 청춘 [대전]",
         "start_time": "09:00",
-        "end_time": "",
+        "end_time": "11:00",
         "frequency": "99.1MHz"
       },
       {
         "title": "박혜진의 문화시대",
         "start_time": "11:00",
-        "end_time": "",
+        "end_time": "12:00",
         "frequency": "99.1MHz"
       },
       {
         "title": "음악이 흐르는 마루 [전주] 송진주의 음악정원 [대전]",
         "start_time": "12:00",
-        "end_time": "",
+        "end_time": "14:00",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "바투의 상사디야",
+        "start_time": "14:00",
+        "end_time": "16:00",
         "frequency": "99.1MHz"
       },
       {
         "title": "노래가 좋다",
         "start_time": "16:00",
-        "end_time": "",
+        "end_time": "18:00",
         "frequency": "99.1MHz"
       },
       {
         "title": "맛있는 라디오",
         "start_time": "18:00",
-        "end_time": "",
+        "end_time": "19:30",
         "frequency": "99.1MHz"
       },
       {
         "title": "양준모의 당신을 위한 노래",
         "start_time": "19:30",
-        "end_time": "",
+        "end_time": "20:00",
         "frequency": "99.1MHz"
       },
       {
         "title": "FM국악당",
         "start_time": "20:00",
-        "end_time": "",
+        "end_time": "21:00",
         "frequency": "99.1MHz"
       },
       {
         "title": "황인찬의 글과 음악의 온도",
         "start_time": "21:00",
-        "end_time": "",
+        "end_time": "22:00",
         "frequency": "99.1MHz"
       },
       {
         "title": "이세준의 음악이 좋은 밤",
         "start_time": "22:00",
-        "end_time": "",
+        "end_time": "24:00",
         "frequency": "99.1MHz"
       }
     ],
@@ -3355,79 +3361,79 @@
     "tbn": [
       {
         "title": "굿모닝 코리아",
-        "start_time": "00:00",
+        "start_time": "06:00",
         "end_time": "",
         "frequency": "100.5MHz"
       },
       {
         "title": "출발! 경인대행진",
-        "start_time": "00:00",
+        "start_time": "07:00",
         "end_time": "",
         "frequency": "100.5MHz"
       },
       {
         "title": "tbn 특별기획 우리의 생명이 가장 중요합니다.",
-        "start_time": "52:00",
+        "start_time": "08:52",
         "end_time": "",
         "frequency": "100.5MHz"
       },
       {
         "title": "스튜디오 1005",
-        "start_time": "00:00",
+        "start_time": "09:00",
         "end_time": "",
         "frequency": "100.5MHz"
       },
       {
         "title": "김경식의 오토쇼 으라차차",
-        "start_time": "00:00",
+        "start_time": "11:00",
         "end_time": "",
         "frequency": "100.5MHz"
       },
       {
         "title": "김효진, 양상국의 12시에 만나요",
-        "start_time": "05:00",
+        "start_time": "12:05",
         "end_time": "",
         "frequency": "100.5MHz"
       },
       {
         "title": "tbn 차차차 (경인)",
-        "start_time": "05:00",
+        "start_time": "14:05",
         "end_time": "",
         "frequency": "100.5MHz"
       },
       {
         "title": "황순유의 4시의 라디오",
-        "start_time": "05:00",
+        "start_time": "16:05",
         "end_time": "",
         "frequency": "100.5MHz"
       },
       {
         "title": "달리는 라디오 (경인)",
-        "start_time": "00:00",
+        "start_time": "17:00",
         "end_time": "",
         "frequency": "100.5MHz"
       },
       {
         "title": "7시의 가요산책",
-        "start_time": "00:00",
+        "start_time": "19:00",
         "end_time": "",
         "frequency": "100.5MHz"
       },
       {
         "title": "김승현의 가요본색",
-        "start_time": "00:00",
+        "start_time": "20:00",
         "end_time": "",
         "frequency": "100.5MHz"
       },
       {
         "title": "행복한 밤, tbn과 함께",
-        "start_time": "00:00",
+        "start_time": "22:00",
         "end_time": "",
         "frequency": "100.5MHz"
       },
       {
         "title": "tbn플레이리스트",
-        "start_time": "00:00",
+        "start_time": "24:00",
         "end_time": "",
         "frequency": "100.5MHz"
       }
