@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "updated_at": "2026-08-20 16:11:27",
+  "updated_at": "2026-08-20 16:17:55",
   "channels": {
     "kbs1": [
       {
@@ -3216,7 +3216,7 @@
       {
         "title": "이세준의 음악이 좋은 밤",
         "start_time": "22:00",
-        "end_time": "24:00",
+        "end_time": "00:00",
         "frequency": "99.1MHz"
       }
     ],
@@ -3562,12 +3562,12 @@
       {
         "title": "행복한 밤, tbn과 함께",
         "start_time": "22:00",
-        "end_time": "24:00",
+        "end_time": "00:00",
         "frequency": "100.5MHz"
       },
       {
         "title": "tbn플레이리스트",
-        "start_time": "24:00",
+        "start_time": "00:00",
         "end_time": "",
         "frequency": "100.5MHz"
       }
@@ -3732,36 +3732,36 @@
       {
         "title": "청소년 소통 프로젝트 <경청>(2부)",
         "start_time": "23:00",
-        "end_time": "24:00",
+        "end_time": "00:00",
         "frequency": "104.5MHz"
       },
       {
         "title": "이승열의 세계 음악 기행(1부)(재)",
-        "start_time": "24:00",
-        "end_time": "25:00",
+        "start_time": "00:00",
+        "end_time": "01:00",
         "frequency": "104.5MHz"
       },
       {
         "title": "이승열의 세계 음악 기행(2부)(재)",
-        "start_time": "25:00",
-        "end_time": "26:01",
+        "start_time": "01:00",
+        "end_time": "02:01",
         "frequency": "104.5MHz"
       },
       {
         "title": "정파1",
-        "start_time": "26:01",
-        "end_time": "27:00",
+        "start_time": "02:01",
+        "end_time": "03:00",
         "frequency": "104.5MHz"
       },
       {
         "title": "정파2",
-        "start_time": "27:00",
-        "end_time": "28:00",
+        "start_time": "03:00",
+        "end_time": "04:00",
         "frequency": "104.5MHz"
       },
       {
         "title": "정파3",
-        "start_time": "28:00",
+        "start_time": "04:00",
         "end_time": "",
         "frequency": "104.5MHz"
       }
