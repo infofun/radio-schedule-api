@@ -1,5 +1,6 @@
 {
   "date": "2026-08-20",
+  "updated_at": "2026-08-20 14:15:03",
   "channels": {
     "kbs1": [
       {
@@ -2489,6 +2490,886 @@
         "start_time": "23:40",
         "end_time": "",
         "frequency": "94.5MHz"
+      }
+    ],
+    "tbs": [
+      {
+        "title": "권순우의 새벽공감 1부",
+        "start_time": "00:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 01",
+        "start_time": "01:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 02",
+        "start_time": "02:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 03",
+        "start_time": "03:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 04",
+        "start_time": "04:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 05",
+        "start_time": "05:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 06",
+        "start_time": "06:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 07 1부",
+        "start_time": "07:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 07 2부",
+        "start_time": "07:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 08 1부",
+        "start_time": "08:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 08 2부",
+        "start_time": "08:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 09 1부",
+        "start_time": "09:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 09 2부",
+        "start_time": "09:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "함춘호의 포크송 1부",
+        "start_time": "10:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "함춘호의 포크송 2부",
+        "start_time": "10:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "함춘호의 포크송 3부",
+        "start_time": "11:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "함춘호의 포크송 4부",
+        "start_time": "11:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS뉴스",
+        "start_time": "12:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 12 1부",
+        "start_time": "12:05",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 12 2부",
+        "start_time": "12:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "머니특별시 1부",
+        "start_time": "13:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "머니특별시 2부",
+        "start_time": "13:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "최일구의 허리케인 라디오 1부",
+        "start_time": "14:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "최일구의 허리케인 라디오 2부",
+        "start_time": "14:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "최일구의 허리케인 라디오 3부",
+        "start_time": "15:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "최일구의 허리케인 라디오 4부",
+        "start_time": "15:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS 4시의 발견 1부",
+        "start_time": "16:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS 4시의 발견 2부",
+        "start_time": "16:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "(재) 머니특별시 1부",
+        "start_time": "17:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "(재) 머니특별시 2부",
+        "start_time": "17:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 18 1부",
+        "start_time": "18:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 18 2부",
+        "start_time": "18:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 19 1부",
+        "start_time": "19:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 19 2부",
+        "start_time": "19:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 20 1부",
+        "start_time": "20:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 20 2부",
+        "start_time": "20:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 21 1부",
+        "start_time": "21:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 21 2부",
+        "start_time": "21:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 22 1부",
+        "start_time": "22:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 22 2부",
+        "start_time": "22:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 23 1부",
+        "start_time": "23:00",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 23 2부",
+        "start_time": "23:30",
+        "end_time": "",
+        "frequency": "95.1MHz"
+      }
+    ],
+    "gugak": [
+      {
+        "title": "송지원의 국악산책(재)",
+        "start_time": "00:00~02:00",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "송지원의 국악산책(재)",
+        "start_time": "00:00~02:00",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "흐르는 음악처럼 [광주]솔바람 물소리 [대전]",
+        "start_time": "02:00~05:00",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "이한철의 창호에 드린 햇살",
+        "start_time": "07:00~09:00",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "송지원의 국악산책남도마실 [광주]꿈꾸는 청춘 [대전]",
+        "start_time": "09:00~11:00",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "박혜진의 문화시대",
+        "start_time": "11:00~12:00",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "음악이 흐르는 마루 [전주]송진주의 음악정원 [대전]",
+        "start_time": "12:00~14:00",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "노래가 좋다",
+        "start_time": "16:00~18:00",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "맛있는 라디오",
+        "start_time": "18:00~19:30",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "양준모의 당신을 위한 노래",
+        "start_time": "19:30~20:00",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "FM국악당",
+        "start_time": "20:00~21:00",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "황인찬의 글과 음악의 온도",
+        "start_time": "21:00~22:00",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "이세준의 음악이 좋은 밤",
+        "start_time": "22:00~24:00",
+        "end_time": "",
+        "frequency": "99.1MHz"
+      }
+    ],
+    "obs": [
+      {
+        "title": "(ì¬) ëª¨ëë¸ë ì´í¬",
+        "start_time": "00:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "(ì¬) ì¤ëì ê¸°í 1ë¶",
+        "start_time": "01:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "(ì¬) ì¤ëì ê¸°í 2ë¶",
+        "start_time": "02:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "(ì¬) ëí¤ì¤í",
+        "start_time": "03:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "(ì¬) ë®¤ì§ EXPRESS 1ë¶",
+        "start_time": "04:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "(ì¬) ë®¤ì§ EXPRESS 2ë¶",
+        "start_time": "05:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì¤ëì ìì",
+        "start_time": "06:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ê¹ì¤í¸ì êµ¿ëª¨ë OBS 1ë¶",
+        "start_time": "07:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ê¹ì¤í¸ì êµ¿ëª¨ë OBS 2ë¶",
+        "start_time": "07:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ê¹ì¤í¸ì êµ¿ëª¨ë OBS 3ë¶",
+        "start_time": "08:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ê¹ì¤í¸ì êµ¿ëª¨ë OBS 4ë¶",
+        "start_time": "08:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ëª¨ëë¸ë ì´í¬ 1ë¶",
+        "start_time": "09:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ëª¨ëë¸ë ì´í¬ 2ë¶",
+        "start_time": "09:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "OBSë¼ëì¤ 10ì ë´ì¤",
+        "start_time": "10:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ëª¨ëë¸ë ì´í¬ 3ë¶",
+        "start_time": "10:04",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ëª¨ëë¸ë ì´í¬ 4ë¶",
+        "start_time": "10:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ëí¤ì¤í 1ë¶",
+        "start_time": "11:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ëí¤ì¤í 2ë¶",
+        "start_time": "11:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "OBSë¼ëì¤ ì ì¤ ë´ì¤",
+        "start_time": "12:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ë®¤ì§ EXPRESS 1ë¶",
+        "start_time": "12:04",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ë®¤ì§ EXPRESS 2ë¶",
+        "start_time": "12:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ë®¤ì§ EXPRESS 3ë¶",
+        "start_time": "13:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ë®¤ì§ EXPRESS 4ë¶",
+        "start_time": "13:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "OBSë¼ëì¤ 2ì ë´ì¤",
+        "start_time": "14:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì´ì°½ëªì í¹ì¡ 1ë¶",
+        "start_time": "14:04",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì´ì°½ëªì í¹ì¡ 2ë¶",
+        "start_time": "14:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì´ì°½ëªì í¹ì¡ 3ë¶",
+        "start_time": "15:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì´ì°½ëªì í¹ì¡ 4ë¶",
+        "start_time": "15:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "OBSë¼ëì¤ 4ì ë´ì¤",
+        "start_time": "16:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "íìë¼ì´ë¸ 1ë¶",
+        "start_time": "16:04",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "íìë¼ì´ë¸ 2ë¶",
+        "start_time": "16:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "íìë¼ì´ë¸ 3ë¶",
+        "start_time": "17:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "íìë¼ì´ë¸ 4ë¶",
+        "start_time": "17:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì¤ëì ê¸°í 1ë¶",
+        "start_time": "18:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì¤ëì ê¸°í 2ë¶",
+        "start_time": "18:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì¤ëì ê¸°í 3ë¶",
+        "start_time": "19:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì¤ëì ê¸°í 4ë¶",
+        "start_time": "19:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì°ë¦¬ë¤ì ì¬íì¤ì¼ì¹ 1ë¶",
+        "start_time": "20:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì°ë¦¬ë¤ì ì¬íì¤ì¼ì¹ 2ë¶",
+        "start_time": "20:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì°ë¦¬ë¤ì ì¬íì¤ì¼ì¹ 3ë¶",
+        "start_time": "21:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ì°ë¦¬ë¤ì ì¬íì¤ì¼ì¹ 4ë¶",
+        "start_time": "21:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "OBS ë´ì¤10",
+        "start_time": "22:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "ëë§ì Playlist",
+        "start_time": "22:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "(ì¬) ëª¨ëë¸ë ì´í¬ 1ë¶",
+        "start_time": "23:00",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      },
+      {
+        "title": "(ì¬) ëª¨ëë¸ë ì´í¬ 2ë¶",
+        "start_time": "23:30",
+        "end_time": "",
+        "frequency": "99.9MHz"
+      }
+    ],
+    "tbn": [
+      {
+        "title": "굿모닝 코리아",
+        "start_time": "00",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      },
+      {
+        "title": "출발! 경인대행진",
+        "start_time": "00",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      },
+      {
+        "title": "tbn 특별기획 우리의 생명이 가장 중요합니다.",
+        "start_time": "52",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      },
+      {
+        "title": "스튜디오 1005",
+        "start_time": "00",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      },
+      {
+        "title": "김경식의 오토쇼 으라차차",
+        "start_time": "00",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      },
+      {
+        "title": "김효진, 양상국의 12시에 만나요",
+        "start_time": "05",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      },
+      {
+        "title": "tbn 차차차 (경인)",
+        "start_time": "05",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      },
+      {
+        "title": "황순유의 4시의 라디오",
+        "start_time": "05",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      },
+      {
+        "title": "달리는 라디오 (경인)",
+        "start_time": "00",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      },
+      {
+        "title": "7시의 가요산책",
+        "start_time": "00",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      },
+      {
+        "title": "김승현의 가요본색",
+        "start_time": "00",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      },
+      {
+        "title": "행복한 밤, tbn과 함께",
+        "start_time": "00",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      },
+      {
+        "title": "tbn플레이리스트",
+        "start_time": "00",
+        "end_time": "",
+        "frequency": "100.5MHz"
+      }
+    ],
+    "ebs": [
+      {
+        "title": "타노시이 중급 일본어\t\t\t\t\t\t\t\t\t\t\t\t\tピンクに染めてます 핑크색으로 염색했어요전체등급",
+        "start_time": "05:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "중급 중국어\t\t\t\t\t\t\t\t\t\t\t\t\t8과 사라진 공중전화전체등급",
+        "start_time": "05:20",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "김대균 토익킹\t\t\t\t\t\t\t\t\t\t\t\t\t[토익킹 RC] Part 5전체등급",
+        "start_time": "05:40",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "Easy Writing\t\t\t\t\t\t\t\t\t\t\t\t\t더위를 못 견디는 남편들에 대한 아내들의 대화 / Wives Talking about Husbands Who Can’t Handle the Heat전체등급",
+        "start_time": "06:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "귀가 트이는 영어\t\t\t\t\t\t\t\t\t\t\t\t\tBipartisan Auto Bill Threatens to Ban Mercedes-Benz from US Market / 미 여야의 초당적 자동차 법안에 벤츠 미국 시장 퇴출 위기7세시청",
+        "start_time": "06:20",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "입이 트이는 영어\t\t\t\t\t\t\t\t\t\t\t\t\tBasketball for Non Sports Fans / 스포츠 문외한 가족의 뜻밖의 농구 사랑7세시청",
+        "start_time": "06:40",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "Start English(영어회화 레벨1)\t\t\t\t\t\t\t\t\t\t\t\t\t필요한 게 있으면 말씀해 주세요.전체등급",
+        "start_time": "07:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "Easy English(영어회화 레벨2)\t\t\t\t\t\t\t\t\t\t\t\t\tThese would be a good choice. 이게 좋은 선택이 될 거예요.전체등급",
+        "start_time": "07:20",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "Power English(영어회화 레벨3)\t\t\t\t\t\t\t\t\t\t\t\t\tHydration Myths & Facts: Part 3전체등급",
+        "start_time": "07:40",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "최수진의 모닝 스페셜(1부)\t\t\t\t\t\t\t\t\t\t\t\t\tMorning Headlines",
+        "start_time": "08:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "최수진의 모닝 스페셜(2부)\t\t\t\t\t\t\t\t\t\t\t\t\tNews Coverage with N.Y.T",
+        "start_time": "09:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "정경의 클래식 클래식(1부)\t\t\t\t\t\t\t\t\t\t\t\t\t8월 20일 정경의 클래식 클래식 1부전체등급",
+        "start_time": "10:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "정경의 클래식 클래식(2부)\t\t\t\t\t\t\t\t\t\t\t\t\t8월 20일 클래식 살롱전체등급",
+        "start_time": "11:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "윤고은의 EBS 북 카페(1부)\t\t\t\t\t\t\t\t\t\t\t\t\t읽기의 기쁨(2) 이주연/ 절기감각전체등급",
+        "start_time": "12:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "윤고은의 EBS 북 카페(2부)\t\t\t\t\t\t\t\t\t\t\t\t\t똑똑 인문학전체등급",
+        "start_time": "13:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "이승열의 세계 음악 기행(1부)\t\t\t\t\t\t\t\t\t\t\t\t\t아티스트 라이브러리 / 세음행이 전하는 노래",
+        "start_time": "14:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "이승열의 세계 음악 기행(2부)\t\t\t\t\t\t\t\t\t\t\t\t\t이아립의 음악 정찬",
+        "start_time": "15:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "아이돌 한국어\t\t\t\t\t\t\t\t\t\t\t\t\t08/20 지금 한국은12세시청",
+        "start_time": "16:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "이브닝 스페셜(1부)\t\t\t\t\t\t\t\t\t\t\t\t\t(목) 1부 Evening Headlines전체등급",
+        "start_time": "17:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "이브닝 스페셜(2부)\t\t\t\t\t\t\t\t\t\t\t\t\t(목) 2부 Deep Dive Daily전체등급",
+        "start_time": "18:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "Start English(영어회화 레벨1)(재)\t\t\t\t\t\t\t\t\t\t\t\t\t필요한 게 있으면 말씀해 주세요.전체등급",
+        "start_time": "19:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "Easy English(영어회화 레벨2)(재)\t\t\t\t\t\t\t\t\t\t\t\t\tThese would be a good choice. 이게 좋은 선택이 될 거예요.전체등급",
+        "start_time": "19:20",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "Power English(영어회화 레벨3)(재)\t\t\t\t\t\t\t\t\t\t\t\t\tHydration Myths & Facts: Part 3전체등급",
+        "start_time": "19:40",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "윤고은의 EBS 북 카페(1부)(재)\t\t\t\t\t\t\t\t\t\t\t\t\t읽기의 기쁨(2) 이주연/ 절기감각전체등급",
+        "start_time": "20:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "윤고은의 EBS 북 카페(2부)(재)\t\t\t\t\t\t\t\t\t\t\t\t\t똑똑 인문학전체등급",
+        "start_time": "21:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "청소년 소통 프로젝트 <경청>(1부)\t\t\t\t\t\t\t\t\t\t\t\t\t[목] 혜정X승제 크로스! with 윤혜정 선생님전체등급",
+        "start_time": "22:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "청소년 소통 프로젝트 <경청>(2부)\t\t\t\t\t\t\t\t\t\t\t\t\t[목] 혜정X승제 크로스! with 윤혜정 선생님12세시청",
+        "start_time": "23:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "이승열의 세계 음악 기행(1부)(재)\t\t\t\t\t\t\t\t\t\t\t\t\t아티스트 라이브러리 / 세음행이 전하는 노래",
+        "start_time": "24:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "이승열의 세계 음악 기행(2부)(재)\t\t\t\t\t\t\t\t\t\t\t\t\t이아립의 음악 정찬",
+        "start_time": "25:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "정파1온에어 제외 프로그램",
+        "start_time": "26:01",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "정파2온에어 제외 프로그램",
+        "start_time": "27:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
+      },
+      {
+        "title": "정파3온에어 제외 프로그램",
+        "start_time": "28:00",
+        "end_time": "",
+        "frequency": "104.5MHz"
       }
     ]
   }
