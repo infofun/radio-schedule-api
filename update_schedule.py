@@ -208,20 +208,31 @@ def parse_tbsefm():
     if programs: schedule_data["channels"]["tbsefm"] = programs
 
 def parse_kookbang():
-    url = "https://radio.dema.mil.kr/web/api/v1/media/fm/nowProgram/ajaxList.do"
-    html_url = "https://m.dema.mil.kr/web/fm/timetable/list.do"
+    url = "https://m.dema.mil.kr/web/api/v1/media/fm/timetable/list.do"
     try:
         custom_headers = headers.copy()
-        custom_headers["Referer"] = "https://radio.dema.mil.kr/"
-        res = requests.get(html_url, headers=custom_headers, verify=False, timeout=30)
+        custom_headers["Referer"] = "https://m.dema.mil.kr/web/media/fm/timetable.do"
+        custom_headers["Content-Type"] = "application/json; charset=UTF-8"
+        custom_headers["Accept"] = "application/json, text/javascript, */*; q=0.01"
+        custom_headers["X-Requested-With"] = "XMLHttpRequest"
+        
+        res = requests.post(url, headers=custom_headers, json={}, verify=False, timeout=30)
         res.encoding = 'utf-8'
-        soup = BeautifulSoup(res.text, 'html.parser')
+        data = res.json()
+        
         programs = []
-        for li in soup.select('.time_list li'):
-            time_el = li.select_one('.time')
-            title_el = li.select_one('.tit')
-            if time_el and title_el:
-                programs.append({"title": clean_text(title_el.text), "start_time": normalize_time(clean_text(time_el.text)), "end_time": ""})
+        prog_list = data.get("map", {}).get("list", [])
+        if not prog_list:
+            prog_list = data.get("list", [])
+            
+        for item in prog_list:
+            # 다양한 JSON 키 가능성에 대비
+            title = item.get("title") or item.get("program_title") or item.get("pgm_nm") or item.get("pgmNm") or item.get("prgm_nm") or item.get("program_name") or ""
+            time_str = item.get("start_time") or item.get("time") or item.get("brdcStTm") or item.get("brd_time") or item.get("play_time") or item.get("tm") or item.get("broad_time") or ""
+            
+            if title and time_str:
+                programs.append({"title": clean_text(title), "start_time": normalize_time(time_str), "end_time": ""})
+                
         if programs: schedule_data["channels"]["kookbang"] = programs
     except Exception as e:
         print(f"Kookbang error: {e}")
@@ -232,21 +243,47 @@ def parse_gugak():
     res.encoding = 'utf-8'
     soup = BeautifulSoup(res.text, 'html.parser')
     programs = []
-    for tr in soup.select('.program_table tbody tr') + soup.select('table tbody tr'):
-        time_el = tr.select_one('.time, .subject')
-        if not time_el:
-            tds = tr.select('td')
-            if len(tds) >= 2:
-                time_str = clean_text(tds[0].text)
-                title_str = clean_text(tds[1].text)
-                if ":" in time_str:
-                    programs.append({"title": title_str, "start_time": normalize_time(time_str), "end_time": ""})
-        else:
-            title_el = tr.select_one('.subject')
-            time_el = tr.select_one('.time')
-            if time_el and title_el:
-                programs.append({"title": clean_text(title_el.text), "start_time": normalize_time(clean_text(time_el.text)), "end_time": ""})
-    if programs: schedule_data["channels"]["gugak"] = programs
+    
+    rows = soup.select('.program_table tbody tr')
+    if not rows: rows = soup.select('table tbody tr')
+        
+    for tr in rows:
+        tds = tr.select('td')
+        if not tds: continue
+        
+        time_str = clean_text(tds[0].text)
+        title_str = clean_text(tds[1].text) if len(tds) >= 2 else ""
+        
+        programs.append({
+            "title": title_str,
+            "raw_time": time_str
+        })
+        
+    # Infer ON AIR missing time
+    for i, p in enumerate(programs):
+        if not p["raw_time"] and p["title"]:
+            st_infer = ""
+            et_infer = ""
+            if i > 0 and programs[i-1]["raw_time"]:
+                prev_parts = programs[i-1]["raw_time"].replace(' ', '').split('~')
+                if len(prev_parts) == 2:
+                    st_infer = prev_parts[1]
+            if i < len(programs) - 1 and programs[i+1]["raw_time"]:
+                next_parts = programs[i+1]["raw_time"].replace(' ', '').split('~')
+                if len(next_parts) >= 1:
+                    et_infer = next_parts[0]
+            p["raw_time"] = f"{st_infer}~{et_infer}"
+
+    final_programs = []
+    for p in programs:
+        parts = p["raw_time"].replace(' ', '').split('~')
+        st = normalize_time(parts[0]) if len(parts) > 0 and parts[0] else ""
+        et = normalize_time(parts[1]) if len(parts) > 1 and parts[1] else ""
+        
+        if p["title"]:
+            final_programs.append({"title": p["title"], "start_time": st, "end_time": et})
+            
+    if final_programs: schedule_data["channels"]["gugak"] = final_programs
 
 def parse_obs():
     url = "https://www.obs.co.kr/schedule/?type=radio"
@@ -270,7 +307,12 @@ def parse_tbn():
     for tr in soup.select('table.board_list tbody tr, table tbody tr'):
         tds = tr.select('td')
         if len(tds) >= 3:
-            programs.append({"title": clean_text(tds[2].text), "start_time": normalize_time(clean_text(tds[1].text)), "end_time": ""})
+            hour = clean_text(tds[0].text)
+            minute = clean_text(tds[1].text)
+            title = clean_text(tds[2].text)
+            st = normalize_time(f"{hour}:{minute}")
+            if st and title:
+                programs.append({"title": title, "start_time": st, "end_time": ""})
     if programs: schedule_data["channels"]["tbn"] = programs
 
 def parse_ebs():
