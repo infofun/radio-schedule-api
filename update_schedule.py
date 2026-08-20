@@ -33,7 +33,7 @@ FREQ_MAP = {
     "mbcChm": "인터넷 전용(올댓뮤직)",
     "sbsLove": "103.5MHz",
     "sbsPower": "107.7MHz",
-    "sbsDmb": ""인터넷 전용(고릴라M)",
+    "sbsDmb": "인터넷 전용(고릴라M)",
     "ytn": "94.5MHz",
     "tbs": "95.1MHz",
     "tbsefm": "101.3MHz",
