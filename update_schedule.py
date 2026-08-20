@@ -390,8 +390,11 @@ def main():
 
     for ch_id, programs in schedule_data["channels"].items():
         freq = FREQ_MAP.get(ch_id, "")
-        for p in programs:
+        for i, p in enumerate(programs):
             p["frequency"] = freq
+            if not p.get("end_time"):
+                if i < len(programs) - 1:
+                    p["end_time"] = programs[i+1].get("start_time", "")
 
     with open('schedule.json', 'w', encoding='utf-8') as f:
         json.dump(schedule_data, f, ensure_ascii=False, indent=2)
