@@ -1,0 +1,2495 @@
+{
+  "date": "2026-08-20",
+  "channels": {
+    "kbs1": [
+      {
+        "title": "1R 5시뉴스",
+        "start_time": "05:00",
+        "end_time": "05:05",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "건강 365",
+        "start_time": "05:05",
+        "end_time": "05:55",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "기상통보",
+        "start_time": "05:55",
+        "end_time": "06:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "KBS뉴스광장(R)",
+        "start_time": "06:00",
+        "end_time": "06:15",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "오늘 아침 1라디오",
+        "start_time": "06:15",
+        "end_time": "06:56",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "바른 말 고운 말",
+        "start_time": "06:56",
+        "end_time": "06:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "06:58",
+        "end_time": "07:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 7시뉴스",
+        "start_time": "07:00",
+        "end_time": "07:05",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "전격시사",
+        "start_time": "07:05",
+        "end_time": "07:56",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "KBS 라디오 연중 캠페인 <초록여행, 떠나요>",
+        "start_time": "07:56",
+        "end_time": "07:57",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "콩 스파트",
+        "start_time": "07:57",
+        "end_time": "07:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "07:58",
+        "end_time": "08:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "전격시사",
+        "start_time": "08:00",
+        "end_time": "08:29",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 홍보 스파트",
+        "start_time": "08:29",
+        "end_time": "08:30",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "전격시사",
+        "start_time": "08:30",
+        "end_time": "08:57",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "재난재해 예방캠페인",
+        "start_time": "08:57",
+        "end_time": "08:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "08:58",
+        "end_time": "09:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 9시뉴스",
+        "start_time": "09:00",
+        "end_time": "09:05",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "성공예감 이대호입니다",
+        "start_time": "09:05",
+        "end_time": "09:57",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "장애인식개선캠페인",
+        "start_time": "09:57",
+        "end_time": "09:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "09:58",
+        "end_time": "10:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 10시뉴스",
+        "start_time": "10:00",
+        "end_time": "10:05",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "성공예감 이대호입니다",
+        "start_time": "10:05",
+        "end_time": "10:52",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 민방위훈련 사전 안내방송",
+        "start_time": "10:52",
+        "end_time": "10:53",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "이은선의 영화관, 정여울의 도서관",
+        "start_time": "10:53",
+        "end_time": "10:56",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "희망충전 대한민국",
+        "start_time": "10:56",
+        "end_time": "10:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "10:58",
+        "end_time": "11:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 11시뉴스",
+        "start_time": "11:00",
+        "end_time": "11:05",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "KBS 1라디오 오늘 세계는",
+        "start_time": "11:05",
+        "end_time": "11:30",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "KBS 1라디오 오늘 세계는",
+        "start_time": "11:30",
+        "end_time": "11:57",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 홍보 스파트",
+        "start_time": "11:57",
+        "end_time": "11:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "11:58",
+        "end_time": "12:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 정오 종합뉴스",
+        "start_time": "12:00",
+        "end_time": "12:20",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "세상의 모든 정보",
+        "start_time": "12:20",
+        "end_time": "12:54",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 민방위훈련 사전 안내방송",
+        "start_time": "12:54",
+        "end_time": "12:55",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "바른 말 고운 말",
+        "start_time": "12:55",
+        "end_time": "12:57",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 채널 스파트",
+        "start_time": "12:57",
+        "end_time": "12:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "12:58",
+        "end_time": "13:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "세상의 모든 정보",
+        "start_time": "13:00",
+        "end_time": "13:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "13:58",
+        "end_time": "14:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 민방위의날 훈련방송",
+        "start_time": "14:00",
+        "end_time": "14:20",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "라디오 전국일주",
+        "start_time": "14:20",
+        "end_time": "14:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "14:58",
+        "end_time": "15:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "라디오 전국일주",
+        "start_time": "15:00",
+        "end_time": "15:26",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "이은선의 영화관, 정여울의 도서관",
+        "start_time": "15:26",
+        "end_time": "15:29",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 홍보 스파트",
+        "start_time": "15:29",
+        "end_time": "15:30",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "지금 이 사람",
+        "start_time": "15:30",
+        "end_time": "15:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "15:58",
+        "end_time": "16:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 16시뉴스",
+        "start_time": "16:00",
+        "end_time": "16:05",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "경제쇼",
+        "start_time": "16:05",
+        "end_time": "16:55",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 채널 스파트",
+        "start_time": "16:55",
+        "end_time": "16:56",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "바른 말 고운 말",
+        "start_time": "16:56",
+        "end_time": "16:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "16:58",
+        "end_time": "17:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 17시뉴스",
+        "start_time": "17:00",
+        "end_time": "17:05",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "뉴스레터K",
+        "start_time": "17:05",
+        "end_time": "17:56",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "희망충전 대한민국",
+        "start_time": "17:56",
+        "end_time": "17:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "17:58",
+        "end_time": "18:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "뉴스레터K",
+        "start_time": "18:00",
+        "end_time": "18:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "18:58",
+        "end_time": "19:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 저녁 종합뉴스",
+        "start_time": "19:00",
+        "end_time": "19:20",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "KBS 열린토론",
+        "start_time": "19:20",
+        "end_time": "20:28",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 홍보 스파트",
+        "start_time": "20:28",
+        "end_time": "20:29",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "재난재해 예방캠페인",
+        "start_time": "20:29",
+        "end_time": "20:30",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "스포츠 스포츠",
+        "start_time": "20:30",
+        "end_time": "20:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "20:58",
+        "end_time": "21:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "KBS 뉴스 9 (1TV 수중계)",
+        "start_time": "21:00",
+        "end_time": "21:30",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "지금 이 사람",
+        "start_time": "21:30",
+        "end_time": "21:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "21:58",
+        "end_time": "22:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 22시뉴스",
+        "start_time": "22:00",
+        "end_time": "22:05",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "오늘 밤 1라디오",
+        "start_time": "22:05",
+        "end_time": "22:58",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "22:58",
+        "end_time": "23:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "작은 서점",
+        "start_time": "23:00",
+        "end_time": "23:52",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "이은선의 영화관, 정여울의 도서관",
+        "start_time": "23:52",
+        "end_time": "23:55",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "기상통보",
+        "start_time": "23:55",
+        "end_time": "00:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 24시뉴스",
+        "start_time": "00:00",
+        "end_time": "00:05",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "문화 공감",
+        "start_time": "00:05",
+        "end_time": "01:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "KBS 열린토론",
+        "start_time": "01:00",
+        "end_time": "02:08",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "1R 홍보 스파트",
+        "start_time": "02:08",
+        "end_time": "02:09",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "재난재해 예방캠페인",
+        "start_time": "02:09",
+        "end_time": "02:10",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "경제로 통일로",
+        "start_time": "02:10",
+        "end_time": "03:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "세월따라 노래따라",
+        "start_time": "03:00",
+        "end_time": "04:00",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "KBS 오디오북-최고의 클립",
+        "start_time": "04:00",
+        "end_time": "04:20",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "소설극장",
+        "start_time": "04:20",
+        "end_time": "04:40",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "재난재해 예방캠페인",
+        "start_time": "04:40",
+        "end_time": "04:42",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "어업기상통보",
+        "start_time": "04:42",
+        "end_time": "04:54",
+        "frequency": "711KHz, 97.3MHz"
+      },
+      {
+        "title": "개시방송",
+        "start_time": "04:54",
+        "end_time": "05:00",
+        "frequency": "711KHz, 97.3MHz"
+      }
+    ],
+    "kbs2": [
+      {
+        "title": "상쾌한 아침",
+        "start_time": "05:00",
+        "end_time": "05:59",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "재난재해 예방캠페인",
+        "start_time": "05:59",
+        "end_time": "06:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "상쾌한 아침",
+        "start_time": "06:00",
+        "end_time": "07:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "우리의 아침, 조경아입니다",
+        "start_time": "07:00",
+        "end_time": "08:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "우리의 아침, 조경아입니다",
+        "start_time": "08:00",
+        "end_time": "09:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "주현미의 러브레터",
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "주현미의 러브레터",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "박명수의 라디오쇼",
+        "start_time": "11:00",
+        "end_time": "11:30",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "박명수의 라디오쇼",
+        "start_time": "11:30",
+        "end_time": "11:59",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "KBS 라디오 연중 캠페인 <초록여행, 떠나요>",
+        "start_time": "11:59",
+        "end_time": "12:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "임백천의 백 뮤직",
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "임백천의 백 뮤직",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "2R 민방위의날 훈련방송",
+        "start_time": "14:00",
+        "end_time": "14:20",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "은가은의 빛나는 트로트",
+        "start_time": "14:20",
+        "end_time": "15:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "은가은의 빛나는 트로트",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "이본의 라라랜드",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "이본의 라라랜드",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "이슬기의 해피타임",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "이슬기의 해피타임",
+        "start_time": "19:00",
+        "end_time": "20:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "이상호의 드림팝",
+        "start_time": "20:00",
+        "end_time": "21:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "이상호의 드림팝",
+        "start_time": "21:00",
+        "end_time": "22:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "유지원의 밤을 잊은 그대에게",
+        "start_time": "22:00",
+        "end_time": "23:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "유지원의 밤을 잊은 그대에게",
+        "start_time": "23:00",
+        "end_time": "00:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "이본의 라라랜드",
+        "start_time": "00:00",
+        "end_time": "00:59",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "채널 홍보 스폿",
+        "start_time": "00:59",
+        "end_time": "01:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "이본의 라라랜드",
+        "start_time": "01:00",
+        "end_time": "01:57",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "채널 스폿",
+        "start_time": "01:57",
+        "end_time": "01:59",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "재난재해 예방캠페인",
+        "start_time": "01:59",
+        "end_time": "02:00",
+        "frequency": "106.1MHz"
+      },
+      {
+        "title": "팝스 프리덤",
+        "start_time": "02:00",
+        "end_time": "03:00",
+        "frequency": "106.1MHz"
+      }
+    ],
+    "kbs3": [
+      {
+        "title": "대한민국 인기가요",
+        "start_time": "06:00",
+        "end_time": "07:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "KBS 오디오북-최고의 클립",
+        "start_time": "07:00",
+        "end_time": "07:20",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "라디오 극장",
+        "start_time": "07:20",
+        "end_time": "07:40",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "와이파이 한국인(재)",
+        "start_time": "07:40",
+        "end_time": "07:54",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "5분 여행기, 구석구석 코리아",
+        "start_time": "07:54",
+        "end_time": "07:59",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "3R 홍보스파트",
+        "start_time": "07:59",
+        "end_time": "08:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "아름다운 우리가곡",
+        "start_time": "08:00",
+        "end_time": "08:05",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "건강 365",
+        "start_time": "08:05",
+        "end_time": "08:55",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "바른 말 고운 말",
+        "start_time": "08:55",
+        "end_time": "08:57",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "장애인식개선캠페인",
+        "start_time": "08:57",
+        "end_time": "08:58",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "3R 채널스파트2",
+        "start_time": "08:58",
+        "end_time": "09:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "함께하는세상만들기",
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "우리는 한가족",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "KBS 오디오북-최고의 클립",
+        "start_time": "11:00",
+        "end_time": "11:20",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "라디오 극장",
+        "start_time": "11:20",
+        "end_time": "11:40",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "소설극장",
+        "start_time": "11:40",
+        "end_time": "12:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "3R 12시뉴스",
+        "start_time": "12:00",
+        "end_time": "12:05",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "강원래의 노래선물",
+        "start_time": "12:05",
+        "end_time": "13:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "내일은 푸른하늘",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "3R 민방위의날 훈련방송",
+        "start_time": "14:00",
+        "end_time": "14:20",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "출발 멋진 인생, 이지연입니다",
+        "start_time": "14:20",
+        "end_time": "15:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "세월따라 노래따라",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "아름다운 우리가곡",
+        "start_time": "16:00",
+        "end_time": "16:05",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "건강 365",
+        "start_time": "16:05",
+        "end_time": "16:55",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "바른 말 고운 말",
+        "start_time": "16:55",
+        "end_time": "16:57",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "장애인식개선캠페인",
+        "start_time": "16:57",
+        "end_time": "16:58",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "3R 채널스파트2",
+        "start_time": "16:58",
+        "end_time": "17:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "문화 공감",
+        "start_time": "17:00",
+        "end_time": "17:55",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "이은선의 영화관, 정여울의 도서관",
+        "start_time": "17:55",
+        "end_time": "17:58",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "3R 채널스파트",
+        "start_time": "17:58",
+        "end_time": "18:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "우리는 한가족",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "내일은 푸른하늘",
+        "start_time": "19:00",
+        "end_time": "20:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "KBS 오디오북-최고의 클립",
+        "start_time": "20:00",
+        "end_time": "20:20",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "소설극장",
+        "start_time": "20:20",
+        "end_time": "20:40",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "와이파이 한국인(재)",
+        "start_time": "20:40",
+        "end_time": "20:54",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "5분 여행기, 구석구석 코리아",
+        "start_time": "20:54",
+        "end_time": "20:59",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "3R 홍보스파트",
+        "start_time": "20:59",
+        "end_time": "21:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "KBS 뉴스 9 (1TV 수중계)",
+        "start_time": "21:00",
+        "end_time": "21:30",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "지금 이 사람",
+        "start_time": "21:30",
+        "end_time": "21:58",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "58분 날씨",
+        "start_time": "21:58",
+        "end_time": "22:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "함께하는세상만들기",
+        "start_time": "22:00",
+        "end_time": "23:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "우리는 한가족",
+        "start_time": "23:00",
+        "end_time": "00:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "대한민국 인기가요",
+        "start_time": "00:00",
+        "end_time": "01:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "세월따라 노래따라",
+        "start_time": "01:00",
+        "end_time": "02:00",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "국악의 향기",
+        "start_time": "02:00",
+        "end_time": "03:00",
+        "frequency": "104.9MHz"
+      }
+    ],
+    "kbs1fm": [
+      {
+        "title": "국악의 향기",
+        "start_time": "05:00",
+        "end_time": "06:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "새아침의 클래식",
+        "start_time": "06:00",
+        "end_time": "07:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "출발 FM과 함께",
+        "start_time": "07:00",
+        "end_time": "09:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "가정음악",
+        "start_time": "09:00",
+        "end_time": "11:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "KBS 음악실",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "생생클래식",
+        "start_time": "12:00",
+        "end_time": "14:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "1FM 민방위의날 훈련방송",
+        "start_time": "14:00",
+        "end_time": "14:20",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "명연주 명음반",
+        "start_time": "14:20",
+        "end_time": "16:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "노래의 날개 위에",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "FM 풍류마을",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "세상의 모든 음악",
+        "start_time": "18:00",
+        "end_time": "19:30",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "2026년 8월 클래식FM 실황특집 중계방송",
+        "start_time": "19:30",
+        "end_time": "21:40",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "정다운 가곡",
+        "start_time": "21:40",
+        "end_time": "22:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "당신의 밤과 음악",
+        "start_time": "22:00",
+        "end_time": "00:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "노래의 날개 위에",
+        "start_time": "00:00",
+        "end_time": "01:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "세상의 모든 음악",
+        "start_time": "01:00",
+        "end_time": "03:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "명연주 명음반",
+        "start_time": "03:00",
+        "end_time": "05:00",
+        "frequency": "93.1MHz"
+      }
+    ],
+    "kbs2fm": [
+      {
+        "title": "상쾌한 아침",
+        "start_time": "05:00",
+        "end_time": "05:59",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "재난재해 예방캠페인",
+        "start_time": "05:59",
+        "end_time": "06:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "상쾌한 아침",
+        "start_time": "06:00",
+        "end_time": "07:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "조정식의 FM대행진 제작협찬",
+        "start_time": "07:00",
+        "end_time": "07:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "조정식의 FM대행진 제작협찬",
+        "start_time": "07:30",
+        "end_time": "08:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "조정식의 FM대행진 제작협찬",
+        "start_time": "08:00",
+        "end_time": "08:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "조정식의 FM대행진 제작협찬",
+        "start_time": "08:30",
+        "end_time": "09:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "이현우의 음악앨범",
+        "start_time": "09:00",
+        "end_time": "09:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "이현우의 음악앨범",
+        "start_time": "09:30",
+        "end_time": "10:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "이현우의 음악앨범",
+        "start_time": "10:00",
+        "end_time": "10:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "이현우의 음악앨범",
+        "start_time": "10:30",
+        "end_time": "11:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "박명수의 라디오쇼",
+        "start_time": "11:00",
+        "end_time": "11:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "박명수의 라디오쇼",
+        "start_time": "11:30",
+        "end_time": "11:59",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "KBS 라디오 연중 캠페인 <초록여행, 떠나요>",
+        "start_time": "11:59",
+        "end_time": "12:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "폴킴의 가요광장",
+        "start_time": "12:00",
+        "end_time": "12:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "폴킴의 가요광장",
+        "start_time": "12:30",
+        "end_time": "13:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "폴킴의 가요광장",
+        "start_time": "13:00",
+        "end_time": "13:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "폴킴의 가요광장",
+        "start_time": "13:30",
+        "end_time": "14:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "2FM 민방위의날 훈련방송",
+        "start_time": "14:00",
+        "end_time": "14:20",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "가비의 슈퍼라디오",
+        "start_time": "14:20",
+        "end_time": "14:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "가비의 슈퍼라디오",
+        "start_time": "14:30",
+        "end_time": "15:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "가비의 슈퍼라디오",
+        "start_time": "15:00",
+        "end_time": "15:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "가비의 슈퍼라디오",
+        "start_time": "15:30",
+        "end_time": "16:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "윤정수 남창희의 미스터 라디오",
+        "start_time": "16:00",
+        "end_time": "16:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "윤정수 남창희의 미스터 라디오",
+        "start_time": "16:30",
+        "end_time": "17:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "윤정수 남창희의 미스터 라디오",
+        "start_time": "17:00",
+        "end_time": "17:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "윤정수 남창희의 미스터 라디오",
+        "start_time": "17:30",
+        "end_time": "18:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "사랑하기 좋은 날 이금희입니다",
+        "start_time": "18:00",
+        "end_time": "18:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "라디오 정보센터 뉴스",
+        "start_time": "18:30",
+        "end_time": "18:31",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "사랑하기 좋은 날 이금희입니다",
+        "start_time": "18:31",
+        "end_time": "19:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "사랑하기 좋은 날 이금희입니다",
+        "start_time": "19:00",
+        "end_time": "19:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "사랑하기 좋은 날 이금희입니다",
+        "start_time": "19:30",
+        "end_time": "20:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "오마이걸 효정의 볼륨을 높여요",
+        "start_time": "20:00",
+        "end_time": "20:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "오마이걸 효정의 볼륨을 높여요",
+        "start_time": "20:30",
+        "end_time": "21:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "오마이걸 효정의 볼륨을 높여요",
+        "start_time": "21:00",
+        "end_time": "21:30",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "오마이걸 효정의 볼륨을 높여요",
+        "start_time": "21:30",
+        "end_time": "21:59",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "KBS 라디오 연중 캠페인 <초록여행, 떠나요>",
+        "start_time": "21:59",
+        "end_time": "22:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "한해의 키스더라디오",
+        "start_time": "22:00",
+        "end_time": "23:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "한해의 키스더라디오",
+        "start_time": "23:00",
+        "end_time": "00:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "스테이션 제로",
+        "start_time": "00:00",
+        "end_time": "01:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "폴킴의 가요광장",
+        "start_time": "01:00",
+        "end_time": "01:59",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "재난재해 예방캠페인",
+        "start_time": "01:59",
+        "end_time": "02:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "폴킴의 가요광장",
+        "start_time": "02:00",
+        "end_time": "02:59",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "재난재해 예방캠페인",
+        "start_time": "02:59",
+        "end_time": "03:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "사랑하기 좋은 날 이금희입니다",
+        "start_time": "03:00",
+        "end_time": "03:58",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "쿨FM 홍보스파트",
+        "start_time": "03:58",
+        "end_time": "04:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "사랑하기 좋은 날 이금희입니다",
+        "start_time": "04:00",
+        "end_time": "05:00",
+        "frequency": "89.1MHz"
+      }
+    ],
+    "mbcSfm": [
+      {
+        "title": "오늘의 문화방송",
+        "start_time": "05:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "가요 1999",
+        "start_time": "05:05",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "뉴스(뉴스투데이)",
+        "start_time": "06:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "아침&뉴스, 류수민입니다",
+        "start_time": "06:15",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "뉴스(07:00)",
+        "start_time": "07:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "김종배의 시선집중",
+        "start_time": "07:05",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "이진우의 손에 잡히는 경제",
+        "start_time": "08:30",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "뉴스(09:00)",
+        "start_time": "09:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "여성시대 양희은, 김일중입니다",
+        "start_time": "09:05",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "뉴스(11:00)",
+        "start_time": "11:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "오승훈의 이과학 저과학",
+        "start_time": "11:05",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "뉴스(정오 뉴스)",
+        "start_time": "12:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "손석희의 12시",
+        "start_time": "12:05",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "민방위 훈련 중계",
+        "start_time": "14:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "손태진의 트로트라디오",
+        "start_time": "14:20",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "뉴스(16:00)",
+        "start_time": "16:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "정선희, 문천식의 지금은 라디오시대",
+        "start_time": "16:05",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "뉴스(18:00)",
+        "start_time": "18:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "조승원의 뉴스하이킥",
+        "start_time": "18:05",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "뉴스(20:00)",
+        "start_time": "20:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "오늘도 당신 편 이재은입니다",
+        "start_time": "20:05",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "뉴스(22:00)",
+        "start_time": "22:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "박정호의 손에 잡히는 경제 플러스",
+        "start_time": "22:05",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "뉴스(23:00)",
+        "start_time": "23:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "신혜림의 골든디스크",
+        "start_time": "23:05",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "낭만가요",
+        "start_time": "00:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "꿈의 팝송",
+        "start_time": "02:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "가요 1999",
+        "start_time": "04:00",
+        "end_time": "",
+        "frequency": "95.9MHz"
+      }
+    ],
+    "mbcFm4u": [
+      {
+        "title": "여기는 MBC-FM4U",
+        "start_time": "05:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "응답하라 20세기",
+        "start_time": "05:05",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "세상을 여는 아침, 이영은입니다",
+        "start_time": "06:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "굿모닝FM 테이입니다",
+        "start_time": "07:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "오늘 아침 윤상입니다",
+        "start_time": "09:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "안녕하세요 이문세입니다",
+        "start_time": "11:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "정오의 희망곡 김신영입니다",
+        "start_time": "12:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "민방위 훈련 중계",
+        "start_time": "14:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "두시의 데이트 안영미입니다",
+        "start_time": "14:20",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "완벽한 하루 이상순입니다",
+        "start_time": "16:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "배철수의 음악캠프",
+        "start_time": "18:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "김이나의 별이 빛나는 밤에",
+        "start_time": "20:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "IDOL RADIO 핫차트 아핫",
+        "start_time": "22:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "FM영화음악 김세윤입니다",
+        "start_time": "00:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "아이돌 라디오 핫트랙",
+        "start_time": "01:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "음악의 발견",
+        "start_time": "03:00",
+        "end_time": "",
+        "frequency": "91.9MHz"
+      }
+    ],
+    "mbcChm": [
+      {
+        "title": "여기는 올댓뮤직",
+        "start_time": "05:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "음악의 발견 1부",
+        "start_time": "05:05",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "음악의 발견 2부",
+        "start_time": "06:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "아이돌 라디오 핫트랙 1부",
+        "start_time": "07:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "아이돌 라디오 핫트랙 2부",
+        "start_time": "08:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "낭만가요 1부",
+        "start_time": "09:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "낭만가요 2부",
+        "start_time": "10:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "꿈의 팝송 1부",
+        "start_time": "11:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "꿈의 팝송 2부",
+        "start_time": "12:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "가요 1999 1부",
+        "start_time": "13:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "가요 1999 2부",
+        "start_time": "14:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "응답하라 20세기 1부",
+        "start_time": "15:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "응답하라 20세기 2부",
+        "start_time": "16:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "음악의 발견 1부 (재)",
+        "start_time": "17:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "음악의 발견 2부 (재)",
+        "start_time": "18:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "아이돌 라디오 핫트랙 1부 (재)",
+        "start_time": "19:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "아이돌 라디오 핫트랙 2부 (재)",
+        "start_time": "20:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "낭만가요 1부 (재)",
+        "start_time": "21:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "낭만가요 2부 (재)",
+        "start_time": "22:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "꿈의 팝송 1부 (재)",
+        "start_time": "23:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "꿈의 팝송 2부 (재)",
+        "start_time": "00:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "가요 1999 1부 (재)",
+        "start_time": "01:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "가요 1999 2부 (재)",
+        "start_time": "02:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "응답하라 20세기 1부 (재)",
+        "start_time": "03:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      },
+      {
+        "title": "응답하라 20세기 2부 (재)",
+        "start_time": "04:00",
+        "end_time": "",
+        "frequency": "인터넷 전용(올댓뮤직)"
+      }
+    ],
+    "sbsPower": [
+      {
+        "title": "애프터클럽",
+        "start_time": "01:00",
+        "end_time": "03:00",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "파워 스테이션",
+        "start_time": "03:00",
+        "end_time": "05:00",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "이인권의 펀펀투데이",
+        "start_time": "05:00",
+        "end_time": "07:00",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "김영철의 파워FM",
+        "start_time": "07:00",
+        "end_time": "09:00",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "아름다운 이 아침, 봉태규입니다",
+        "start_time": "09:00",
+        "end_time": "11:00",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "박하선의 씨네타운",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "12시엔 주현영",
+        "start_time": "12:00",
+        "end_time": "14:00",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "민방위 훈련 실황 중계",
+        "start_time": "14:00",
+        "end_time": "14:20",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "두시탈출 컬투쇼",
+        "start_time": "14:20",
+        "end_time": "16:00",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "황제성의 황제파워",
+        "start_time": "16:00",
+        "end_time": "18:00",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "박소현의 러브게임",
+        "start_time": "18:00",
+        "end_time": "20:00",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "웬디의 영스트리트",
+        "start_time": "20:00",
+        "end_time": "22:00",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "배성재의 텐",
+        "start_time": "22:00",
+        "end_time": "23:00",
+        "frequency": "107.7MHz"
+      },
+      {
+        "title": "딘딘의 뮤직하이",
+        "start_time": "23:00",
+        "end_time": "25:00",
+        "frequency": "107.7MHz"
+      }
+    ],
+    "sbsLove": [
+      {
+        "title": "Love 20",
+        "start_time": "02:00",
+        "end_time": "04:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "OLDIES 20",
+        "start_time": "04:00",
+        "end_time": "06:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "SBS 뉴스",
+        "start_time": "06:00",
+        "end_time": "06:05",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "고현준의 뉴스 브리핑",
+        "start_time": "06:05",
+        "end_time": "07:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "SBS 뉴스",
+        "start_time": "07:00",
+        "end_time": "07:05",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "김태현의 정치쇼",
+        "start_time": "07:05",
+        "end_time": "09:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "SBS 뉴스",
+        "start_time": "09:00",
+        "end_time": "09:05",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "이숙영의 러브FM",
+        "start_time": "09:05",
+        "end_time": "11:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "박연미의 목돈연구소",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "SBS 뉴스",
+        "start_time": "12:00",
+        "end_time": "12:05",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "유민상의 배고픈 라디오",
+        "start_time": "12:05",
+        "end_time": "14:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "민방위 훈련 실황 중계",
+        "start_time": "14:00",
+        "end_time": "14:20",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "그대의 오후, 정엽입니다",
+        "start_time": "14:20",
+        "end_time": "16:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "인생은 오디션",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "편상욱의 뉴스직격",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "SBS 뉴스",
+        "start_time": "18:00",
+        "end_time": "18:05",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "6시 저녁바람 김창완입니다",
+        "start_time": "18:05",
+        "end_time": "20:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "20시 뉴스",
+        "start_time": "20:00",
+        "end_time": "20:05",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "김윤상의 뮤직투나잇",
+        "start_time": "20:05",
+        "end_time": "22:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "SBS 뉴스",
+        "start_time": "22:00",
+        "end_time": "22:05",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "음악이 흐르는 밤, 박은경입니다",
+        "start_time": "22:05",
+        "end_time": "24:00",
+        "frequency": "103.5MHz"
+      },
+      {
+        "title": "YESTERDAY 20",
+        "start_time": "24:00",
+        "end_time": "26:00",
+        "frequency": "103.5MHz"
+      }
+    ],
+    "sbsDmb": [
+      {
+        "title": "Hits 20 (재)",
+        "start_time": "00:00",
+        "end_time": "02:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "Relax 20 (재)",
+        "start_time": "02:00",
+        "end_time": "04:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "K-POP 20 (재)",
+        "start_time": "04:00",
+        "end_time": "05:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "Indie 20 (재)",
+        "start_time": "05:00",
+        "end_time": "06:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "Pop 20 (재)",
+        "start_time": "06:00",
+        "end_time": "07:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "Morning 20",
+        "start_time": "07:00",
+        "end_time": "09:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "Relax 20",
+        "start_time": "09:00",
+        "end_time": "11:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "K-POP 20",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "Hits 20",
+        "start_time": "12:00",
+        "end_time": "14:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "민방위 훈련 실황 중계",
+        "start_time": "14:00",
+        "end_time": "14:20",
+        "frequency": "DMB"
+      },
+      {
+        "title": "Oldies 20",
+        "start_time": "14:20",
+        "end_time": "16:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "Power 20",
+        "start_time": "16:00",
+        "end_time": "18:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "Love 20",
+        "start_time": "18:00",
+        "end_time": "20:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "Indie 20",
+        "start_time": "20:00",
+        "end_time": "21:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "Pop 20",
+        "start_time": "21:00",
+        "end_time": "22:00",
+        "frequency": "DMB"
+      },
+      {
+        "title": "Classic 20",
+        "start_time": "22:00",
+        "end_time": "24:00",
+        "frequency": "DMB"
+      }
+    ],
+    "ytn": [
+      {
+        "title": "YTN24",
+        "start_time": "00:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "한밤의 BGM 여행 1부",
+        "start_time": "00:20",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "YTN24",
+        "start_time": "01:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "한밤의 BGM 여행 2부",
+        "start_time": "01:20",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "YTN24",
+        "start_time": "02:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "한밤의 BGM 여행 3부",
+        "start_time": "02:20",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "YTN24",
+        "start_time": "03:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "한밤의 BGM 여행 4부",
+        "start_time": "03:20",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스퀘어 4AM",
+        "start_time": "04:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "한밤의 BGM 여행 5부",
+        "start_time": "04:20",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스START",
+        "start_time": "05:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "듀에토의 더 클래식",
+        "start_time": "05:25",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "이원화 변호사의 사건X파일",
+        "start_time": "05:45",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스START",
+        "start_time": "06:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "100년의 소리  : 간호로 지킨 나라",
+        "start_time": "06:18",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "굿모닝 경제 매거진 해 봅시다",
+        "start_time": "06:20",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "06:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "YTN 뉴스FM 아침 7시 뉴스",
+        "start_time": "07:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "장성철의 뉴스명당 1~2부",
+        "start_time": "07:10",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "07:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "장성철의 뉴스명당 3~4부",
+        "start_time": "08:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "08:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "YTN 뉴스FM 아침 9시 뉴스",
+        "start_time": "09:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "조태현의 생생경제 1~2부",
+        "start_time": "09:10",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "09:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스퀘어 10AM",
+        "start_time": "10:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "조인섭 변호사의 상담소",
+        "start_time": "10:15",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "슬기로운 라디오생활 1부",
+        "start_time": "10:30",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "10:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "슬기로운 라디오생활 2~3부",
+        "start_time": "11:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "11:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "YTN 뉴스FM 정오뉴스",
+        "start_time": "12:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "톡톡! 뉴스와 상식",
+        "start_time": "12:08",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스NOW",
+        "start_time": "12:10",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "100년의 소리  : 간호로 지킨 나라",
+        "start_time": "12:55",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "12:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스NOW",
+        "start_time": "13:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "이원화 변호사의 사건X파일",
+        "start_time": "13:40",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "13:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스퀘어 2PM",
+        "start_time": "14:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "톡톡! 뉴스와 상식",
+        "start_time": "14:55",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "14:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스퀘어 2PM",
+        "start_time": "15:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "조인섭 변호사의 상담소",
+        "start_time": "15:40",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "15:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스ON",
+        "start_time": "16:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "굿머니 굿라이프",
+        "start_time": "16:20",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "16:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "(돌아온) 이동형의 뉴스 정면승부 1~2부",
+        "start_time": "17:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "17:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "(돌아온) 이동형의 뉴스 정면승부 3부",
+        "start_time": "18:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "YTN 뉴스FM 저녁 뉴스",
+        "start_time": "18:30",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "100년의 소리  : 간호로 지킨 나라",
+        "start_time": "18:43",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "이원화 변호사의 사건X파일",
+        "start_time": "18:45",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "18:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스PLUS",
+        "start_time": "19:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "19:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스퀘어 8PM",
+        "start_time": "20:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "듀에토의 더 클래식",
+        "start_time": "20:20",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "조인섭 변호사의 상담소",
+        "start_time": "20:40",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스퀘어 8PM",
+        "start_time": "21:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "굿머니 굿라이프",
+        "start_time": "21:20",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "57분 날씨와 교통",
+        "start_time": "21:57",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "뉴스NIGHT",
+        "start_time": "22:00",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "톡톡! 뉴스와 상식",
+        "start_time": "23:38",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "듀에토의 더 클래식",
+        "start_time": "23:40",
+        "end_time": "",
+        "frequency": "94.5MHz"
+      }
+    ]
+  }
+}

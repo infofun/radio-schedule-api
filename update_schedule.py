@@ -1,0 +1,268 @@
+import os
+import json
+import requests
+from bs4 import BeautifulSoup
+from datetime import datetime, timedelta
+import pytz
+
+KST = pytz.timezone('Asia/Seoul')
+now = datetime.now(KST)
+ymd = now.strftime('%Y%m%d')
+ymd_dash = now.strftime('%Y-%m-%d')
+year = now.strftime('%Y')
+month = now.strftime('%m')
+day = now.strftime('%d')
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+}
+
+schedule_data = {
+    "date": ymd_dash,
+    "channels": {}
+}
+
+FREQ_MAP = {
+    "kbs1": "711KHz, 97.3MHz",
+    "kbs2": "106.1MHz",
+    "kbs3": "104.9MHz",
+    "kbs1fm": "93.1MHz",
+    "kbs2fm": "89.1MHz",
+    "mbcSfm": "95.9MHz",
+    "mbcFm4u": "91.9MHz",
+    "mbcChm": "인터넷 전용(올댓뮤직)",
+    "sbsLove": "103.5MHz",
+    "sbsPower": "107.7MHz",
+    "sbsDmb": ""인터넷 전용(고릴라M)",
+    "ytn": "94.5MHz",
+    "tbs": "95.1MHz",
+    "tbsefm": "101.3MHz",
+    "kookbang": "96.7MHz",
+    "gugak": "99.1MHz",
+    "obs": "99.9MHz",
+    "tbn": "100.5MHz",
+    "ebs": "104.5MHz"
+}
+
+def clean_text(text):
+    if not text: return ""
+    return text.strip().replace('\r', '').replace('\n', '')
+
+def format_time(t_str):
+    if not t_str: return ""
+    # "0500" -> "05:00", "05000000" -> "05:00"
+    if len(t_str) >= 4:
+        # Handle 2600 -> 02:00 next day if needed, but standardizing to HH:MM
+        h = int(t_str[:2]) % 24
+        return f"{h:02d}:{t_str[2:4]}"
+    return t_str
+
+# --- Parsing Functions ---
+def parse_kbs():
+    url = f"https://static.api.kbs.co.kr/mediafactory/v1/schedule/weekly?local_station_code=00&channel_code=21,22,23,24,25&program_planned_date_from={ymd}&program_planned_date_to={ymd}"
+    res = requests.get(url, headers=headers)
+    data = res.json()
+    ch_map = {"21": "kbs1", "22": "kbs2", "23": "kbs3", "24": "kbs1fm", "25": "kbs2fm"}
+    
+    for ch_data in data:
+        ch_code = ch_data.get("channel_code")
+        ch_id = ch_map.get(ch_code)
+        if not ch_id: continue
+        
+        programs = []
+        for p in ch_data.get("schedules", []):
+            title = p.get("program_title", "")
+            st = format_time(p.get("service_start_time", p.get("program_planned_start_time", "")))
+            et = format_time(p.get("service_end_time", p.get("program_planned_end_time", "")))
+            programs.append({
+                "title": clean_text(title),
+                "start_time": st,
+                "end_time": et
+            })
+        schedule_data["channels"][ch_id] = programs
+
+def parse_mbc():
+    for mbc_type, ch_id in [("FM", "mbcSfm"), ("FM4U", "mbcFm4u"), ("ALLTHAT", "mbcChm")]:
+        url = f"https://control.imbc.com/Schedule/Radio?sDate={ymd}&sType={mbc_type}"
+        res = requests.get(url, headers=headers)
+        try:
+            data = res.json()
+            programs = []
+            for p in data:
+                title = p.get("Title", "")
+                st = format_time(p.get("StartTime", ""))
+                # running time is in minutes usually, but MBC just gives start times. We can approximate end time by next program
+                programs.append({
+                    "title": clean_text(title),
+                    "start_time": st,
+                    "end_time": "" # Calculate later if needed
+                })
+            schedule_data["channels"][ch_id] = programs
+        except:
+            pass
+
+def parse_sbs():
+    for type_str, ch_id in [("Power", "sbsPower"), ("Love", "sbsLove"), ("DMB+Radio", "sbsDmb")]:
+        m_no_zero = str(int(month))
+        d_no_zero = str(int(day))
+        url = f"https://static.cloud.sbs.co.kr/schedule/{year}/{m_no_zero}/{d_no_zero}/{type_str}.json"
+        res = requests.get(url, headers=headers)
+        if res.status_code != 200: continue
+        try:
+            data = res.json()
+            programs = []
+            for p in data:
+                title = p.get("title", "")
+                programs.append({
+                    "title": clean_text(title),
+                    "start_time": p.get("start_time", ""),
+                    "end_time": p.get("end_time", "")
+                })
+            schedule_data["channels"][ch_id] = programs
+        except:
+            pass
+
+def parse_html_table(url, ch_id, row_selector, time_selector, title_selector):
+    res = requests.get(url, headers=headers)
+    res.encoding = 'utf-8'
+    soup = BeautifulSoup(res.text, 'html.parser')
+    programs = []
+    
+    rows = soup.select(row_selector)
+    for row in rows:
+        time_el = row.select_one(time_selector)
+        title_el = row.select_one(title_selector)
+        if time_el and title_el:
+            st = clean_text(time_el.text).replace('-', '').strip()
+            title = clean_text(title_el.text)
+            programs.append({
+                "title": title,
+                "start_time": format_time(st.replace(':', '')),
+                "end_time": ""
+            })
+    if programs:
+        schedule_data["channels"][ch_id] = programs
+
+def parse_ytn():
+    url = f"https://radio.ytn.co.kr/schedule/down_daily.php?ymd={ymd_dash}&type=1"
+    parse_html_table(url, "ytn", ".time_content", ".time", ".name")
+
+def parse_tbs():
+    url = "https://tbs.seoul.kr/fm/schedule.do"
+    # Actually, TBS HTML might need specific parsing. Let's do a basic one or fallback to empty.
+    # Since TBS structure changes, we will do our best.
+    res = requests.get(url, headers=headers)
+    soup = BeautifulSoup(res.text, 'html.parser')
+    programs = []
+    # TBS usually uses table or list
+    for tr in soup.select('table tbody tr'):
+        ths = tr.select('th')
+        tds = tr.select('td')
+        if ths and tds:
+            st = clean_text(ths[0].text)
+            title = clean_text(tds[0].text)
+            programs.append({"title": title, "start_time": st, "end_time": ""})
+    if programs: schedule_data["channels"]["tbs"] = programs
+
+def parse_kookbang():
+    url = "https://radio.dema.mil.kr/web/api/v1/media/fm/nowProgram/ajaxList.do"
+    # Kookbang is tricky, let's try to get the HTML list
+    html_url = "https://m.dema.mil.kr/web/fm/timetable/list.do"
+    res = requests.get(html_url, headers=headers)
+    soup = BeautifulSoup(res.text, 'html.parser')
+    programs = []
+    for li in soup.select('.time_list li'):
+        time_el = li.select_one('.time')
+        title_el = li.select_one('.tit')
+        if time_el and title_el:
+            programs.append({"title": clean_text(title_el.text), "start_time": clean_text(time_el.text), "end_time": ""})
+    if programs: schedule_data["channels"]["kookbang"] = programs
+
+def parse_gugak():
+    url = "https://www.igbf.kr/gugak_web/?sub_num=786"
+    res = requests.get(url, headers=headers)
+    soup = BeautifulSoup(res.text, 'html.parser')
+    programs = []
+    for tr in soup.select('.program_table tbody tr'):
+        time_el = tr.select_one('.time')
+        title_el = tr.select_one('.subject')
+        if time_el and title_el:
+            programs.append({"title": clean_text(title_el.text), "start_time": clean_text(time_el.text), "end_time": ""})
+    if programs: schedule_data["channels"]["gugak"] = programs
+
+def parse_obs():
+    url = "https://www.obs.co.kr/schedule/?type=radio"
+    res = requests.get(url, headers=headers)
+    soup = BeautifulSoup(res.text, 'html.parser')
+    programs = []
+    for tr in soup.select('.schedule-table tbody tr'):
+        tds = tr.select('td')
+        if len(tds) >= 2:
+            programs.append({"title": clean_text(tds[1].text), "start_time": clean_text(tds[0].text), "end_time": ""})
+    if programs: schedule_data["channels"]["obs"] = programs
+
+def parse_tbn():
+    url = f"https://www.tbn.or.kr/broadcast/program.tbn?page_code=6&area_code=1&today={ymd}"
+    res = requests.get(url, headers=headers)
+    soup = BeautifulSoup(res.text, 'html.parser')
+    programs = []
+    for tr in soup.select('table.board_list tbody tr'):
+        tds = tr.select('td')
+        if len(tds) >= 3:
+            programs.append({"title": clean_text(tds[2].text), "start_time": clean_text(tds[1].text), "end_time": ""})
+    if programs: schedule_data["channels"]["tbn"] = programs
+
+def parse_ebs():
+    url = f"https://www.ebs.co.kr/schedule?channelCd=RADIO&date={ymd}&onor=RADIO"
+    res = requests.get(url, headers=headers)
+    soup = BeautifulSoup(res.text, 'html.parser')
+    programs = []
+    for li in soup.select('.timeline_list li'):
+        time_el = li.select_one('.time')
+        title_el = li.select_one('.tit')
+        if time_el and title_el:
+            programs.append({"title": clean_text(title_el.text), "start_time": clean_text(time_el.text), "end_time": ""})
+    if programs: schedule_data["channels"]["ebs"] = programs
+
+def main():
+    try: parse_kbs()
+    except Exception as e: print("KBS err:", e)
+    
+    try: parse_mbc()
+    except Exception as e: print("MBC err:", e)
+
+    try: parse_sbs()
+    except Exception as e: print("SBS err:", e)
+    
+    try: parse_ytn()
+    except Exception as e: print("YTN err:", e)
+    
+    try: parse_tbs()
+    except Exception as e: print("TBS err:", e)
+    
+    try: parse_kookbang()
+    except Exception as e: print("Kookbang err:", e)
+    
+    try: parse_gugak()
+    except Exception as e: print("Gugak err:", e)
+    
+    try: parse_obs()
+    except Exception as e: print("OBS err:", e)
+    
+    try: parse_tbn()
+    except Exception as e: print("TBN err:", e)
+    
+    try: parse_ebs()
+    except Exception as e: print("EBS err:", e)
+
+    for ch_id, programs in schedule_data["channels"].items():
+        freq = FREQ_MAP.get(ch_id, "")
+        for p in programs:
+            p["frequency"] = freq
+
+    with open('schedule.json', 'w', encoding='utf-8') as f:
+        json.dump(schedule_data, f, ensure_ascii=False, indent=2)
+    print("Successfully generated schedule.json")
+
+if __name__ == "__main__":
+    main()
