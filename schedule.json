@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-24",
-  "updated_at": "2026-08-24 11:23:58",
+  "date": "2026-08-25",
+  "updated_at": "2026-08-25 00:35:58",
   "channels": {
     "kbs1": [
       {
@@ -1296,32 +1296,8 @@
         "frequency": "89.1MHz"
       },
       {
-        "title": "폴킴의 가요광장",
+        "title": "계획정파",
         "start_time": "02:00",
-        "end_time": "02:59",
-        "frequency": "89.1MHz"
-      },
-      {
-        "title": "재난재해 예방캠페인",
-        "start_time": "02:59",
-        "end_time": "03:00",
-        "frequency": "89.1MHz"
-      },
-      {
-        "title": "사랑하기 좋은 날 이금희입니다",
-        "start_time": "03:00",
-        "end_time": "03:58",
-        "frequency": "89.1MHz"
-      },
-      {
-        "title": "쿨FM 홍보스파트",
-        "start_time": "03:58",
-        "end_time": "04:00",
-        "frequency": "89.1MHz"
-      },
-      {
-        "title": "사랑하기 좋은 날 이금희입니다",
-        "start_time": "04:00",
         "end_time": "05:00",
         "frequency": "89.1MHz"
       }
@@ -1744,12 +1720,12 @@
       {
         "title": "애프터클럽",
         "start_time": "01:00",
-        "end_time": "03:00",
+        "end_time": "02:00",
         "frequency": "107.7MHz"
       },
       {
-        "title": "파워 스테이션",
-        "start_time": "03:00",
+        "title": "파워FM 정기정파",
+        "start_time": "02:00",
         "end_time": "05:00",
         "frequency": "107.7MHz"
       },
@@ -1822,14 +1798,14 @@
     ],
     "sbsLove": [
       {
-        "title": "Love 20",
+        "title": "러브FM 정기정파",
         "start_time": "02:00",
-        "end_time": "04:00",
+        "end_time": "05:00",
         "frequency": "103.5MHz"
       },
       {
         "title": "OLDIES 20",
-        "start_time": "04:00",
+        "start_time": "05:00",
         "end_time": "06:00",
         "frequency": "103.5MHz"
       },
@@ -1962,14 +1938,8 @@
         "frequency": "인터넷 전용(고릴라M)"
       },
       {
-        "title": "Relax 20 (재)",
+        "title": "고릴라M 정기정파",
         "start_time": "02:00",
-        "end_time": "04:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "K-POP 20 (재)",
-        "start_time": "04:00",
         "end_time": "05:00",
         "frequency": "인터넷 전용(고릴라M)"
       },
@@ -2700,86 +2670,74 @@
     ],
     "tbsefm": [
       {
-        "title": "Non-Stop Music Express 0000",
+        "title": "Morning Groove 23 (Rerun) 3",
         "start_time": "00:00",
         "end_time": "00:30",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0030",
+        "title": "Morning Groove 23 (Rerun) 4",
         "start_time": "00:30",
         "end_time": "01:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0100",
+        "title": "MIXTAPE 1013 01 (Rerun) 1",
         "start_time": "01:00",
         "end_time": "01:30",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0130",
+        "title": "MIXTAPE 1013 01 (Rerun) 2",
         "start_time": "01:30",
         "end_time": "02:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0200",
+        "title": "10121013 02 (Rerun) 1",
         "start_time": "02:00",
         "end_time": "02:30",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0230",
+        "title": "10121013 02 (Rerun) 2",
         "start_time": "02:30",
         "end_time": "03:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0300",
+        "title": "10121013 02 (Rerun) 3",
         "start_time": "03:00",
         "end_time": "03:30",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0330",
+        "title": "10121013 02 (Rerun) 4",
         "start_time": "03:30",
         "end_time": "04:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0400",
+        "title": "首爾我來了 (Coming to Seoul) 04 (Rerun) 1",
         "start_time": "04:00",
         "end_time": "04:30",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0430",
+        "title": "首爾我來了 (Coming to Seoul) 04 (Rerun) 2",
         "start_time": "04:30",
         "end_time": "05:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0500",
+        "title": "天涯万里情 (천애만리정) 05 (Rerun) 1",
         "start_time": "05:00",
-        "end_time": "05:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Non-Stop Music Express 0530",
-        "start_time": "05:30",
         "end_time": "06:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0600",
+        "title": "天涯万里情 (천애만리정) 05 (Rerun) 3",
         "start_time": "06:00",
-        "end_time": "06:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Non-Stop Music Express 0630",
-        "start_time": "06:30",
         "end_time": "07:00",
         "frequency": "101.3MHz"
       },
@@ -3101,7 +3059,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3186,19 +3144,19 @@
         "frequency": "99.9MHz"
       },
       {
-        "title": "(재) 오늘의 기후 스페셜 1부",
+        "title": "(재) 오늘의 기후 1부",
         "start_time": "01:00",
         "end_time": "02:00",
         "frequency": "99.9MHz"
       },
       {
-        "title": "(재) 오늘의 기후 스페셜 2부",
+        "title": "(재) 오늘의 기후 2부",
         "start_time": "02:00",
         "end_time": "03:00",
         "frequency": "99.9MHz"
       },
       {
-        "title": "(재) 고주룡의 참쉬운 경제 99.9",
+        "title": "(재) 돈키오테",
         "start_time": "03:00",
         "end_time": "04:00",
         "frequency": "99.9MHz"
