@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "updated_at": "2026-08-24 05:24:33",
+  "updated_at": "2026-08-24 11:23:58",
   "channels": {
     "kbs1": [
       {
@@ -3276,13 +3276,13 @@
         "frequency": "99.9MHz"
       },
       {
-        "title": "돈키오테 스페셜 1부",
+        "title": "돈키오테 1부",
         "start_time": "11:00",
         "end_time": "11:30",
         "frequency": "99.9MHz"
       },
       {
-        "title": "돈키오테 스페셜 2부",
+        "title": "돈키오테 2부",
         "start_time": "11:30",
         "end_time": "12:00",
         "frequency": "99.9MHz"
