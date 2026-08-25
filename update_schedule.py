@@ -1,5 +1,7 @@
 import os
 import json
+import time
+import random
 import requests
 import ssl
 from requests.adapters import HTTPAdapter
@@ -20,7 +22,7 @@ class TLSAdapter(HTTPAdapter):
 
 session = requests.Session()
 session.mount('https://', TLSAdapter())
-requests.get = session.get
+requests.get = lambda url, **kwargs: session.get(url, timeout=kwargs.pop('timeout', 15), **kwargs)
 
 
 KST = pytz.timezone('Asia/Seoul')
@@ -359,33 +361,43 @@ def parse_ebs():
 def main():
     try: parse_kbs()
     except Exception as e: print("KBS err:", e)
+    time.sleep(random.uniform(1, 2))
     
     try: parse_mbc()
     except Exception as e: print("MBC err:", e)
+    time.sleep(random.uniform(1, 2))
 
     try: parse_sbs()
     except Exception as e: print("SBS err:", e)
+    time.sleep(random.uniform(1, 2))
     
     try: parse_ytn()
     except Exception as e: print("YTN err:", e)
+    time.sleep(random.uniform(1, 2))
     
     try: parse_tbs()
     except Exception as e: print("TBS err:", e)
+    time.sleep(random.uniform(1, 2))
     
     try: parse_tbsefm()
     except Exception as e: print("TBS eFM err:", e)
+    time.sleep(random.uniform(1, 2))
     
     try: parse_kookbang()
     except Exception as e: print("Kookbang err:", e)
+    time.sleep(random.uniform(1, 2))
     
     try: parse_gugak()
     except Exception as e: print("Gugak err:", e)
+    time.sleep(random.uniform(1, 2))
     
     try: parse_obs()
     except Exception as e: print("OBS err:", e)
+    time.sleep(random.uniform(1, 2))
     
     try: parse_tbn()
     except Exception as e: print("TBN err:", e)
+    time.sleep(random.uniform(1, 2))
     
     try: parse_ebs()
     except Exception as e: print("EBS err:", e)
