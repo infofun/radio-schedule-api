@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-25",
-  "updated_at": "2026-08-25 15:46:45",
+  "date": "2026-08-26",
+  "updated_at": "2026-08-26 00:38:56",
   "channels": {
     "kbs1": [
       {
@@ -1296,8 +1296,32 @@
         "frequency": "89.1MHz"
       },
       {
-        "title": "계획정파",
+        "title": "폴킴의 가요광장",
         "start_time": "02:00",
+        "end_time": "02:59",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "재난재해 예방캠페인",
+        "start_time": "02:59",
+        "end_time": "03:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "사랑하기 좋은 날 이금희입니다",
+        "start_time": "03:00",
+        "end_time": "03:58",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "쿨FM 홍보스파트",
+        "start_time": "03:58",
+        "end_time": "04:00",
+        "frequency": "89.1MHz"
+      },
+      {
+        "title": "사랑하기 좋은 날 이금희입니다",
+        "start_time": "04:00",
         "end_time": "05:00",
         "frequency": "89.1MHz"
       }
@@ -1720,12 +1744,12 @@
       {
         "title": "애프터클럽",
         "start_time": "01:00",
-        "end_time": "02:00",
+        "end_time": "03:00",
         "frequency": "107.7MHz"
       },
       {
-        "title": "파워FM 정기정파",
-        "start_time": "02:00",
+        "title": "파워 스테이션",
+        "start_time": "03:00",
         "end_time": "05:00",
         "frequency": "107.7MHz"
       },
@@ -1798,14 +1822,14 @@
     ],
     "sbsLove": [
       {
-        "title": "러브FM 정기정파",
+        "title": "Love 20",
         "start_time": "02:00",
-        "end_time": "05:00",
+        "end_time": "04:00",
         "frequency": "103.5MHz"
       },
       {
         "title": "OLDIES 20",
-        "start_time": "05:00",
+        "start_time": "04:00",
         "end_time": "06:00",
         "frequency": "103.5MHz"
       },
@@ -1938,8 +1962,14 @@
         "frequency": "인터넷 전용(고릴라M)"
       },
       {
-        "title": "고릴라M 정기정파",
+        "title": "Relax 20 (재)",
         "start_time": "02:00",
+        "end_time": "04:00",
+        "frequency": "인터넷 전용(고릴라M)"
+      },
+      {
+        "title": "K-POP 20 (재)",
+        "start_time": "04:00",
         "end_time": "05:00",
         "frequency": "인터넷 전용(고릴라M)"
       },
@@ -2524,13 +2554,13 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 1부",
+        "title": "TBS 정오의 티어로즈 1부",
         "start_time": "12:05",
         "end_time": "12:30",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 2부",
+        "title": "TBS 정오의 티어로즈 2부",
         "start_time": "12:30",
         "end_time": "13:00",
         "frequency": "95.1MHz"
@@ -3059,7 +3089,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
