@@ -1,6 +1,6 @@
 {
   "date": "2026-08-25",
-  "updated_at": "2026-08-25 11:19:18",
+  "updated_at": "2026-08-25 14:49:56",
   "channels": {
     "kbs1": [
       {
@@ -2922,84 +2922,138 @@
         "frequency": "101.3MHz"
       }
     ],
-    "gugak": [
+    "kookbang": [
       {
-        "title": "송지원의 국악산책(재)",
+        "title": "KFN 논스톱 뮤직 1부",
         "start_time": "00:00",
+        "end_time": "01:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN 논스톱 뮤직 2부",
+        "start_time": "01:00",
         "end_time": "02:00",
-        "frequency": "99.1MHz"
+        "frequency": "96.7MHz"
       },
       {
-        "title": "흐르는 음악처럼 [광주]",
+        "title": "KFN 논스톱 뮤직 3부",
         "start_time": "02:00",
-        "end_time": "05:00",
-        "frequency": "99.1MHz"
+        "end_time": "03:00",
+        "frequency": "96.7MHz"
       },
       {
-        "title": "이한철의 창호에 드린 햇살",
+        "title": "KFN 논스톱 뮤직 4부",
+        "start_time": "03:00",
+        "end_time": "04:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN 논스톱 뮤직 5부",
+        "start_time": "04:00",
+        "end_time": "05:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN 논스톱 뮤직 6부",
+        "start_time": "05:00",
+        "end_time": "06:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "처음듣는 라디오 이다경입니다",
+        "start_time": "06:00",
+        "end_time": "06:57",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "이달의 호국인물",
+        "start_time": "06:57",
+        "end_time": "07:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "국방광장",
         "start_time": "07:00",
         "end_time": "09:00",
-        "frequency": "99.1MHz"
+        "frequency": "96.7MHz"
       },
       {
-        "title": "송지원의 국악산책",
+        "title": "오유경의 뮤직갤러리",
         "start_time": "09:00",
         "end_time": "11:00",
-        "frequency": "99.1MHz"
+        "frequency": "96.7MHz"
       },
       {
-        "title": "박혜진의 문화시대",
+        "title": "KFN 디펜스11",
         "start_time": "11:00",
         "end_time": "12:00",
-        "frequency": "99.1MHz"
+        "frequency": "96.7MHz"
       },
       {
-        "title": "음악이 흐르는 마루 [전주]",
+        "title": "KFN라디오 정오뉴스",
         "start_time": "12:00",
+        "end_time": "12:05",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "신나는 라디오",
+        "start_time": "12:05",
         "end_time": "14:00",
-        "frequency": "99.1MHz"
+        "frequency": "96.7MHz"
       },
       {
-        "title": "바투의 상사디야",
+        "title": "김종서의 러빙유",
         "start_time": "14:00",
+        "end_time": "15:57",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN 캠페인",
+        "start_time": "15:57",
         "end_time": "16:00",
-        "frequency": "99.1MHz"
+        "frequency": "96.7MHz"
       },
       {
-        "title": "노래가 좋다",
+        "title": "KFN라디오 4시뉴스",
         "start_time": "16:00",
+        "end_time": "16:05",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "미료의 프리스타일",
+        "start_time": "16:05",
         "end_time": "18:00",
-        "frequency": "99.1MHz"
+        "frequency": "96.7MHz"
       },
       {
-        "title": "맛있는 라디오",
+        "title": "프리즘",
         "start_time": "18:00",
-        "end_time": "19:30",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "양준모의 당신을 위한 노래",
-        "start_time": "19:30",
         "end_time": "20:00",
-        "frequency": "99.1MHz"
+        "frequency": "96.7MHz"
       },
       {
-        "title": "FM국악당",
+        "title": "레이나의 건빵과 별사탕",
         "start_time": "20:00",
-        "end_time": "21:00",
-        "frequency": "99.1MHz"
+        "end_time": "21:57",
+        "frequency": "96.7MHz"
       },
       {
-        "title": "황인찬의 글과 음악의 온도",
-        "start_time": "21:00",
+        "title": "이달의 호국인물",
+        "start_time": "21:57",
         "end_time": "22:00",
-        "frequency": "99.1MHz"
+        "frequency": "96.7MHz"
       },
       {
-        "title": "이세준의 음악이 좋은 밤",
+        "title": "명상의 시간",
         "start_time": "22:00",
+        "end_time": "22:05",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "밤을 비추는 라디오",
+        "start_time": "22:05",
         "end_time": "00:00",
-        "frequency": "99.1MHz"
+        "frequency": "96.7MHz"
       }
     ],
     "obs": [
@@ -3352,200 +3406,6 @@
         "start_time": "00:00",
         "end_time": "",
         "frequency": "100.5MHz"
-      }
-    ],
-    "ebs": [
-      {
-        "title": "야사시이 초급 일본어",
-        "start_time": "05:00",
-        "end_time": "05:20",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "초급 중국어",
-        "start_time": "05:20",
-        "end_time": "05:40",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "김대균 토익킹",
-        "start_time": "05:40",
-        "end_time": "06:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "Easy Writing",
-        "start_time": "06:00",
-        "end_time": "06:20",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "귀가 트이는 영어",
-        "start_time": "06:20",
-        "end_time": "06:40",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "입이 트이는 영어",
-        "start_time": "06:40",
-        "end_time": "07:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "Start English(영어회화 레벨1)",
-        "start_time": "07:00",
-        "end_time": "07:20",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "Easy English(영어회화 레벨2)",
-        "start_time": "07:20",
-        "end_time": "07:40",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "Power English(영어회화 레벨3)",
-        "start_time": "07:40",
-        "end_time": "08:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "최수진의 모닝 스페셜(1부)",
-        "start_time": "08:00",
-        "end_time": "09:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "최수진의 모닝 스페셜(2부)",
-        "start_time": "09:00",
-        "end_time": "10:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "정경의 클래식 클래식(1부)",
-        "start_time": "10:00",
-        "end_time": "11:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "정경의 클래식 클래식(2부)",
-        "start_time": "11:00",
-        "end_time": "12:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "윤고은의 EBS 북 카페(1부)",
-        "start_time": "12:00",
-        "end_time": "13:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "윤고은의 EBS 북 카페(2부)",
-        "start_time": "13:00",
-        "end_time": "14:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "이승열의 세계 음악 기행(1부)",
-        "start_time": "14:00",
-        "end_time": "15:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "이승열의 세계 음악 기행(2부)",
-        "start_time": "15:00",
-        "end_time": "16:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "아이돌 한국어",
-        "start_time": "16:00",
-        "end_time": "17:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "이브닝 스페셜(1부)",
-        "start_time": "17:00",
-        "end_time": "18:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "이브닝 스페셜(2부)",
-        "start_time": "18:00",
-        "end_time": "19:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "Start English(영어회화 레벨1)(재)",
-        "start_time": "19:00",
-        "end_time": "19:20",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "Easy English(영어회화 레벨2)(재)",
-        "start_time": "19:20",
-        "end_time": "19:40",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "Power English(영어회화 레벨3)(재)",
-        "start_time": "19:40",
-        "end_time": "20:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "윤고은의 EBS 북 카페(1부)(재)",
-        "start_time": "20:00",
-        "end_time": "21:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "윤고은의 EBS 북 카페(2부)(재)",
-        "start_time": "21:00",
-        "end_time": "22:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "청소년 소통 프로젝트 <경청>(1부)",
-        "start_time": "22:00",
-        "end_time": "23:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "청소년 소통 프로젝트 <경청>(2부)",
-        "start_time": "23:00",
-        "end_time": "00:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "이승열의 세계 음악 기행(1부)(재)",
-        "start_time": "00:00",
-        "end_time": "01:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "이승열의 세계 음악 기행(2부)(재)",
-        "start_time": "01:00",
-        "end_time": "02:01",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "정파1",
-        "start_time": "02:01",
-        "end_time": "03:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "정파2",
-        "start_time": "03:00",
-        "end_time": "04:00",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "정파3",
-        "start_time": "04:00",
-        "end_time": "",
-        "frequency": "104.5MHz"
       }
     ]
   }
