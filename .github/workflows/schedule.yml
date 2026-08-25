@@ -32,6 +32,16 @@ jobs:
         pip install -r requirements.txt
       working-directory: ./
 
+    # 💡 [추가된 부분] 파이썬 스크립트 실행 전 네트워크 차단 여부 테스트
+    - name: EBS 접속 테스트 (방화벽 차단 확인)
+      run: curl -v https://www.ebs.co.kr/ --connect-timeout 10
+      continue-on-error: true # 테스트 실패로 인해 전체 액션이 중단되지 않도록 방지
+
+    - name: 국악방송 접속 테스트 (방화벽 차단 확인)
+      run: curl -v https://www.igbf.kr/ --connect-timeout 10
+      continue-on-error: true # 테스트 실패로 인해 전체 액션이 중단되지 않도록 방지
+    # -------------------------------------------------------------
+
     - name: 스크래핑 스크립트 실행
       run: python update_schedule.py
       working-directory: ./
