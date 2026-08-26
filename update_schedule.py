@@ -263,14 +263,19 @@ def parse_gugak():
         
         time_str = clean_text(tds[0].text)
         
+        # Check for ON AIR image
+        img_tag = tds[0].select_one('img')
+        if img_tag and img_tag.get('alt') == 'ON AIR':
+            time_str = 'ONAIR'
+        elif 'ON AIR' in time_str.upper() or 'ONAIR' in time_str.upper():
+            time_str = 'ONAIR'
+        
         title_str = ""
         if len(tds) >= 2:
             a_tag = tds[1].select_one('a')
             if a_tag:
                 title_str = clean_text(a_tag.text)
             else:
-                # If no a tag, just get the first text node or raw text, but avoid nested tds
-                # For safety, if there's no a tag, clean_text(tds[1].text) will have to do
                 title_str = clean_text(tds[1].text)
         
         programs.append({
@@ -280,17 +285,26 @@ def parse_gugak():
         
     # Infer ON AIR missing time
     for i, p in enumerate(programs):
-        if not p["raw_time"] and p["title"]:
+        if (not p["raw_time"] or p["raw_time"] == 'ONAIR') and p["title"]:
             st_infer = ""
             et_infer = ""
-            if i > 0 and programs[i-1]["raw_time"]:
-                prev_parts = programs[i-1]["raw_time"].replace(' ', '').split('~')
-                if len(prev_parts) == 2:
-                    st_infer = prev_parts[1]
-            if i < len(programs) - 1 and programs[i+1]["raw_time"]:
-                next_parts = programs[i+1]["raw_time"].replace(' ', '').split('~')
-                if len(next_parts) >= 1:
-                    et_infer = next_parts[0]
+            
+            # Find previous valid time
+            for j in range(i - 1, -1, -1):
+                if programs[j]["raw_time"] and programs[j]["raw_time"] != 'ONAIR':
+                    prev_parts = programs[j]["raw_time"].replace(' ', '').split('~')
+                    if len(prev_parts) == 2:
+                        st_infer = prev_parts[1]
+                        break
+            
+            # Find next valid time
+            for j in range(i + 1, len(programs)):
+                if programs[j]["raw_time"] and programs[j]["raw_time"] != 'ONAIR':
+                    next_parts = programs[j]["raw_time"].replace(' ', '').split('~')
+                    if len(next_parts) >= 1:
+                        et_infer = next_parts[0]
+                        break
+                        
             p["raw_time"] = f"{st_infer}~{et_infer}"
 
     final_programs = []
