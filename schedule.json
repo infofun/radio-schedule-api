@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "updated_at": "2026-08-26 10:59:39",
+  "updated_at": "2026-08-26 11:07:59",
   "channels": {
     "kbs1": [
       {
@@ -3108,12 +3108,12 @@
       {
         "title": "송지원의 국악산책",
         "start_time": "09:00",
-        "end_time": "",
+        "end_time": "11:00",
         "frequency": "99.1MHz"
       },
       {
         "title": "박혜진의 문화시대",
-        "start_time": "",
+        "start_time": "11:00",
         "end_time": "12:00",
         "frequency": "99.1MHz"
       },
