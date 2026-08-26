@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-26",
-  "updated_at": "2026-08-26 11:07:59",
+  "date": "2026-08-27",
+  "updated_at": "2026-08-27 01:35:18",
   "channels": {
     "kbs1": [
       {
@@ -1012,14 +1012,8 @@
         "frequency": "93.1MHz"
       },
       {
-        "title": "FM 실황음악",
+        "title": "2026년 8월 클래식FM 실황특집 중계방송",
         "start_time": "20:00",
-        "end_time": "21:40",
-        "frequency": "93.1MHz"
-      },
-      {
-        "title": "정다운 가곡",
-        "start_time": "21:40",
         "end_time": "22:00",
         "frequency": "93.1MHz"
       },
@@ -1564,7 +1558,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "친한친구 방송반",
+        "title": "IDOL RADIO 핫차트 아핫",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -2554,13 +2548,13 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS 정오의 티어로즈 1부",
+        "title": "TBS와 함께 12 1부",
         "start_time": "12:05",
         "end_time": "12:30",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS 정오의 티어로즈 2부",
+        "title": "TBS와 함께 12 2부",
         "start_time": "12:30",
         "end_time": "13:00",
         "frequency": "95.1MHz"
@@ -3089,7 +3083,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3520,13 +3514,13 @@
     ],
     "ebs": [
       {
-        "title": "야사시이 초급 일본어",
+        "title": "타노시이 중급 일본어",
         "start_time": "05:00",
         "end_time": "05:20",
         "frequency": "104.5MHz"
       },
       {
-        "title": "초급 중국어",
+        "title": "중급 중국어",
         "start_time": "05:20",
         "end_time": "05:40",
         "frequency": "104.5MHz"
