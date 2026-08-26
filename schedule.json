@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "updated_at": "2026-08-27 01:35:18",
+  "updated_at": "2026-08-27 08:32:56",
   "channels": {
     "kbs1": [
       {
@@ -3083,7 +3083,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "",
+        "start_time": "00:00",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3095,7 +3095,7 @@
       },
       {
         "title": "이한철의 창호에 드린 햇살",
-        "start_time": "07:00",
+        "start_time": "05:00",
         "end_time": "09:00",
         "frequency": "99.1MHz"
       },
