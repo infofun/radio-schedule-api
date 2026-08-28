@@ -1,7 +1,7 @@
 name: Update Radio Schedule
 
 on:
-  schedule:
+  #schedule:
     # 1. 매일 자정 캘린더 일자 변경 (정각 트래픽 회피: KST 00:17 -> UTC 15:17)
     #- cron: '17 15 * * *'
     # 2. 라디오 방송일자 변경 및 정규 방송 시작 (정각 트래픽 회피: KST 05:13 -> UTC 20:13)
