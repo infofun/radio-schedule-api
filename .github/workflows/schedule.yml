@@ -8,7 +8,7 @@ on:
     #- cron: '13 20 * * *'
     # 3. 방송국 담당자 수동 업데이트 반영 시간 (정각 트래픽 회피: KST 10:14 -> UTC 01:14)
     #- cron: '14 1 * * *'
-    #https://cron-job.org 에서 작도중
+    #https://cron-job.org 에서 작동중
   workflow_dispatch: # 수동 실행을 위한 트리거
 
 permissions:
