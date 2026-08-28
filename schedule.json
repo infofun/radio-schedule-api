@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-27",
-  "updated_at": "2026-08-27 20:09:41",
+  "date": "2026-08-28",
+  "updated_at": "2026-08-28 09:26:12",
   "channels": {
     "kbs1": [
       {
@@ -1012,8 +1012,14 @@
         "frequency": "93.1MHz"
       },
       {
-        "title": "2026년 8월 클래식FM 실황특집 중계방송",
+        "title": "FM 실황음악",
         "start_time": "20:00",
+        "end_time": "21:40",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "정다운 가곡",
+        "start_time": "21:40",
         "end_time": "22:00",
         "frequency": "93.1MHz"
       },
@@ -1432,6 +1438,12 @@
       {
         "title": "조승원의 뉴스하이킥",
         "start_time": "18:05",
+        "end_time": "19:36",
+        "frequency": "95.9MHz"
+      },
+      {
+        "title": "백범 김구 탄생 150주년 특집 '내가 원하는 우리나라'",
+        "start_time": "19:36",
         "end_time": "20:00",
         "frequency": "95.9MHz"
       },
@@ -1512,6 +1524,12 @@
       {
         "title": "굿모닝FM 테이입니다",
         "start_time": "07:00",
+        "end_time": "08:37",
+        "frequency": "91.9MHz"
+      },
+      {
+        "title": "백범 김구 탄생 150주년 특집 '내가 원하는 우리나라'",
+        "start_time": "08:37",
         "end_time": "09:00",
         "frequency": "91.9MHz"
       },
@@ -1558,7 +1576,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "IDOL RADIO 핫차트 아핫",
+        "title": "IDOL RADIO 시즌4",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -1876,7 +1894,7 @@
         "frequency": "103.5MHz"
       },
       {
-        "title": "유민상의 배고픈 라디오",
+        "title": "유민상의 배고픈 라디오 특집 〈제철리 배부른 마을회관〉",
         "start_time": "12:05",
         "end_time": "14:00",
         "frequency": "103.5MHz"
@@ -1894,14 +1912,8 @@
         "frequency": "103.5MHz"
       },
       {
-        "title": "인생은 오디션",
+        "title": "인생은 오디션 특집 〈인생은 오디션 The Final〉",
         "start_time": "16:00",
-        "end_time": "17:00",
-        "frequency": "103.5MHz"
-      },
-      {
-        "title": "편상욱의 뉴스직격",
-        "start_time": "17:00",
         "end_time": "18:00",
         "frequency": "103.5MHz"
       },
@@ -2216,8 +2228,14 @@
         "frequency": "94.5MHz"
       },
       {
-        "title": "슬기로운 라디오생활 2~3부",
+        "title": "슬기로운 라디오생활 2부",
         "start_time": "11:00",
+        "end_time": "11:30",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "슬기로운 라디오생활 3부",
+        "start_time": "11:30",
         "end_time": "11:57",
         "frequency": "94.5MHz"
       },
@@ -2548,13 +2566,13 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 1부",
+        "title": "TBS 정오의 티어로즈 1부",
         "start_time": "12:05",
         "end_time": "12:30",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 2부",
+        "title": "TBS 정오의 티어로즈 2부",
         "start_time": "12:30",
         "end_time": "13:00",
         "frequency": "95.1MHz"
@@ -3142,7 +3160,7 @@
         "frequency": "99.1MHz"
       },
       {
-        "title": "FM국악당",
+        "title": "FM국악당 [광주]",
         "start_time": "20:00",
         "end_time": "21:00",
         "frequency": "99.1MHz"
@@ -3414,7 +3432,7 @@
         "frequency": "99.9MHz"
       },
       {
-        "title": "나만의 Playlist",
+        "title": "나만의 Playlist 2부",
         "start_time": "22:30",
         "end_time": "23:00",
         "frequency": "99.9MHz"
