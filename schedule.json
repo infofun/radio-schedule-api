@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-03",
-  "updated_at": "2026-09-03 10:05:25",
+  "date": "2026-09-04",
+  "updated_at": "2026-09-04 00:05:19",
   "channels": {
     "kbs1": [
       {
@@ -1552,7 +1552,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "IDOL RADIO 핫차트 아핫",
+        "title": "IDOL RADIO 시즌4",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -2210,8 +2210,14 @@
         "frequency": "94.5MHz"
       },
       {
-        "title": "슬기로운 라디오생활 2~3부",
+        "title": "슬기로운 라디오생활 2부",
         "start_time": "11:00",
+        "end_time": "11:30",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "슬기로운 라디오생활 3부",
+        "start_time": "11:30",
         "end_time": "11:57",
         "frequency": "94.5MHz"
       },
@@ -2536,13 +2542,19 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 1부",
+        "title": "TBS뉴스",
         "start_time": "12:00",
+        "end_time": "12:05",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS 정오의 티어로즈 1부",
+        "start_time": "12:05",
         "end_time": "12:30",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 2부",
+        "title": "TBS 정오의 티어로즈 2부",
         "start_time": "12:30",
         "end_time": "13:00",
         "frequency": "95.1MHz"
@@ -3071,7 +3083,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3130,7 +3142,7 @@
         "frequency": "99.1MHz"
       },
       {
-        "title": "FM국악당",
+        "title": "FM국악당 [광주]",
         "start_time": "20:00",
         "end_time": "21:00",
         "frequency": "99.1MHz"
@@ -3402,7 +3414,7 @@
         "frequency": "99.9MHz"
       },
       {
-        "title": "나만의 Playlist",
+        "title": "나만의 Playlist 2부",
         "start_time": "22:30",
         "end_time": "23:00",
         "frequency": "99.9MHz"
@@ -3574,14 +3586,8 @@
         "frequency": "104.5MHz"
       },
       {
-        "title": "2026학년도 전국 중고등학교 영어듣기 능력평가(9월)",
-        "start_time": "11:00",
-        "end_time": "11:20",
-        "frequency": "104.5MHz"
-      },
-      {
         "title": "정경의 클래식 클래식(2부)",
-        "start_time": "11:20",
+        "start_time": "11:00",
         "end_time": "12:00",
         "frequency": "104.5MHz"
       },
