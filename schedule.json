@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updated_at": "2026-09-04 00:05:19",
+  "updated_at": "2026-09-04 05:05:20",
   "channels": {
     "kbs1": [
       {
@@ -3083,7 +3083,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "",
+        "start_time": "00:00",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
