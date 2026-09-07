@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updated_at": "2026-09-07 05:05:19",
+  "updated_at": "2026-09-07 10:05:18",
   "channels": {
     "kbs1": [
       {
@@ -2812,86 +2812,6 @@
         "start_time": "22:05",
         "end_time": "00:00",
         "frequency": "96.7MHz"
-      }
-    ],
-    "gugak": [
-      {
-        "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
-        "end_time": "02:00",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "흐르는 음악처럼 [광주]",
-        "start_time": "02:00",
-        "end_time": "05:00",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "이한철의 창호에 드린 햇살",
-        "start_time": "07:00",
-        "end_time": "09:00",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "송지원의 국악산책",
-        "start_time": "09:00",
-        "end_time": "11:00",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "박혜진의 문화시대",
-        "start_time": "11:00",
-        "end_time": "12:00",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "음악이 흐르는 마루 [전주]",
-        "start_time": "12:00",
-        "end_time": "14:00",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "바투의 상사디야",
-        "start_time": "14:00",
-        "end_time": "16:00",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "노래가 좋다",
-        "start_time": "16:00",
-        "end_time": "18:00",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "맛있는 라디오",
-        "start_time": "18:00",
-        "end_time": "19:30",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "양준모의 당신을 위한 노래",
-        "start_time": "19:30",
-        "end_time": "20:00",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "FM국악당",
-        "start_time": "20:00",
-        "end_time": "21:00",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "구술프로젝트, 남기고 싶은 이야기 - 최동현 교수",
-        "start_time": "21:00",
-        "end_time": "22:00",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "이세준의 음악이 좋은 밤",
-        "start_time": "22:00",
-        "end_time": "00:00",
-        "frequency": "99.1MHz"
       }
     ],
     "obs": [
