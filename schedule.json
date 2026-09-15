@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-15",
-  "updated_at": "2026-09-15 10:05:20",
+  "date": "2026-09-16",
+  "updated_at": "2026-09-16 00:05:24",
   "channels": {
     "kbs1": [
       {
@@ -442,20 +442,8 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "국악의 향기",
+        "title": "KBS 열린토론",
         "start_time": "01:00",
-        "end_time": "02:00",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "이은선의 영화관, 정여울의 도서관",
-        "start_time": "02:00",
-        "end_time": "02:03",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "아름다운 우리가곡",
-        "start_time": "02:03",
         "end_time": "02:08",
         "frequency": "97.3MHz"
       },
@@ -2554,13 +2542,13 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 1부",
+        "title": "TBS 정오의 티어로즈 1부",
         "start_time": "12:05",
         "end_time": "12:30",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 2부",
+        "title": "TBS 정오의 티어로즈 2부",
         "start_time": "12:30",
         "end_time": "13:00",
         "frequency": "95.1MHz"
@@ -3089,7 +3077,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
