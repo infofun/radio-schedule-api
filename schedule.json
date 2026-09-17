@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-17",
-  "updated_at": "2026-09-17 10:05:19",
+  "date": "2026-09-18",
+  "updated_at": "2026-09-18 00:05:20",
   "channels": {
     "kbs1": [
       {
@@ -124,44 +124,8 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "1R 10시뉴스",
+        "title": "KBS 뉴스특보 (1TV 수중계)",
         "start_time": "10:00",
-        "end_time": "10:05",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "성공예감 이대호입니다",
-        "start_time": "10:05",
-        "end_time": "10:53",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "이은선의 영화관, 정여울의 도서관",
-        "start_time": "10:53",
-        "end_time": "10:56",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "희망충전 대한민국",
-        "start_time": "10:56",
-        "end_time": "10:58",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "58분 날씨",
-        "start_time": "10:58",
-        "end_time": "11:00",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "1R 11시뉴스",
-        "start_time": "11:00",
-        "end_time": "11:05",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "KBS 1라디오 오늘 세계는",
-        "start_time": "11:05",
         "end_time": "11:30",
         "frequency": "97.3MHz"
       },
@@ -364,7 +328,7 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "스포츠 스포츠",
+        "title": "KBS라디오 제 20회 아이치-나고야 아시안 게임 특집 방송",
         "start_time": "20:30",
         "end_time": "20:58",
         "frequency": "97.3MHz"
@@ -1552,7 +1516,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "IDOL RADIO 핫차트 아핫",
+        "title": "IDOL RADIO 시즌4",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -2210,8 +2174,14 @@
         "frequency": "94.5MHz"
       },
       {
-        "title": "슬기로운 라디오생활 2~3부",
+        "title": "슬기로운 라디오생활 2부",
         "start_time": "11:00",
+        "end_time": "11:30",
+        "frequency": "94.5MHz"
+      },
+      {
+        "title": "슬기로운 라디오생활 3부",
+        "start_time": "11:30",
         "end_time": "11:57",
         "frequency": "94.5MHz"
       },
@@ -2542,13 +2512,13 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 1부",
+        "title": "TBS 정오의 티어로즈 1부",
         "start_time": "12:05",
         "end_time": "12:30",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 2부",
+        "title": "TBS 정오의 티어로즈 2부",
         "start_time": "12:30",
         "end_time": "13:00",
         "frequency": "95.1MHz"
@@ -3077,7 +3047,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3136,7 +3106,7 @@
         "frequency": "99.1MHz"
       },
       {
-        "title": "FM국악당",
+        "title": "FM국악당 [광주]",
         "start_time": "20:00",
         "end_time": "21:00",
         "frequency": "99.1MHz"
