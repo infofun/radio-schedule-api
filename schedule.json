@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updated_at": "2026-09-18 05:05:22",
+  "updated_at": "2026-09-18 10:05:19",
   "channels": {
     "kbs1": [
       {
@@ -124,26 +124,20 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "KBS 뉴스특보 (1TV 수중계)",
+        "title": "1R 10시뉴스",
         "start_time": "10:00",
-        "end_time": "11:30",
+        "end_time": "10:05",
         "frequency": "97.3MHz"
       },
       {
-        "title": "KBS 1라디오 오늘 세계는",
-        "start_time": "11:30",
-        "end_time": "11:57",
+        "title": "성공예감 이대호입니다",
+        "start_time": "10:05",
+        "end_time": "10:30",
         "frequency": "97.3MHz"
       },
       {
-        "title": "1R 홍보 스파트",
-        "start_time": "11:57",
-        "end_time": "11:58",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "58분 날씨",
-        "start_time": "11:58",
+        "title": "KBS 뉴스특보 (1TV 수중계)",
+        "start_time": "10:30",
         "end_time": "12:00",
         "frequency": "97.3MHz"
       },
