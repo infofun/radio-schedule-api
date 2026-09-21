@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updated_at": "2026-09-21 05:05:25",
+  "updated_at": "2026-09-21 10:05:22",
   "channels": {
     "kbs1": [
       {
@@ -376,8 +376,20 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "KBS 뉴스 9 (1TV 수중계)",
+        "title": "KBS 오디오북-최고의 클립",
         "start_time": "21:00",
+        "end_time": "21:20",
+        "frequency": "97.3MHz"
+      },
+      {
+        "title": "5분 여행기, 구석구석 코리아",
+        "start_time": "21:20",
+        "end_time": "21:25",
+        "frequency": "97.3MHz"
+      },
+      {
+        "title": "아름다운 우리가곡",
+        "start_time": "21:25",
         "end_time": "21:30",
         "frequency": "97.3MHz"
       },
@@ -890,8 +902,20 @@
         "frequency": "104.9MHz"
       },
       {
-        "title": "KBS 뉴스 9 (1TV 수중계)",
+        "title": "KBS 오디오북-최고의 클립",
         "start_time": "21:00",
+        "end_time": "21:20",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "5분 여행기, 구석구석 코리아",
+        "start_time": "21:20",
+        "end_time": "21:25",
+        "frequency": "104.9MHz"
+      },
+      {
+        "title": "아름다운 우리가곡",
+        "start_time": "21:25",
         "end_time": "21:30",
         "frequency": "104.9MHz"
       },
