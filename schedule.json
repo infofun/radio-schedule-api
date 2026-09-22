@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updated_at": "2026-09-22 05:05:21",
+  "updated_at": "2026-09-22 10:05:23",
   "channels": {
     "kbs1": [
       {
@@ -3061,6 +3061,12 @@
         "title": "흐르는 음악처럼 [광주]",
         "start_time": "02:00",
         "end_time": "05:00",
+        "frequency": "99.1MHz"
+      },
+      {
+        "title": "솔바람 물소리 [대전]",
+        "start_time": "05:00",
+        "end_time": "07:00",
         "frequency": "99.1MHz"
       },
       {
