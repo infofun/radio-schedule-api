@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-24",
-  "updated_at": "2026-09-24 10:05:17",
+  "date": "2026-09-25",
+  "updated_at": "2026-09-25 00:05:25",
   "channels": {
     "kbs1": [
       {
@@ -106,32 +106,8 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "성공예감 이대호입니다",
+        "title": "KBS 1라디오 특별기획 <미래를 여는 경제콘서트>",
         "start_time": "09:05",
-        "end_time": "09:57",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "장애인식개선캠페인",
-        "start_time": "09:57",
-        "end_time": "09:58",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "58분 날씨",
-        "start_time": "09:58",
-        "end_time": "10:00",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "1R 10시뉴스",
-        "start_time": "10:00",
-        "end_time": "10:05",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "성공예감 이대호입니다",
-        "start_time": "10:05",
         "end_time": "10:53",
         "frequency": "97.3MHz"
       },
@@ -478,7 +454,7 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "세월따라 노래따라",
+        "title": "KBS 한민족 방송 추석 특집 공개방송",
         "start_time": "03:00",
         "end_time": "04:00",
         "frequency": "97.3MHz"
@@ -806,7 +782,7 @@
         "frequency": "104.9MHz"
       },
       {
-        "title": "세월따라 노래따라",
+        "title": "KBS 한민족 방송 추석 특집 공개방송",
         "start_time": "15:00",
         "end_time": "16:00",
         "frequency": "104.9MHz"
@@ -950,7 +926,7 @@
         "frequency": "104.9MHz"
       },
       {
-        "title": "세월따라 노래따라",
+        "title": "KBS 한민족 방송 추석 특집 공개방송",
         "start_time": "01:00",
         "end_time": "02:00",
         "frequency": "104.9MHz"
@@ -1570,7 +1546,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "IDOL RADIO 핫차트 아핫",
+        "title": "IDOL RADIO 시즌4",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -1772,37 +1748,37 @@
         "frequency": "107.7MHz"
       },
       {
-        "title": "아름다운 이 아침, 봉태규입니다",
+        "title": "아름다운 이 아침, 봉태규입니다 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "09:00",
         "end_time": "11:00",
         "frequency": "107.7MHz"
       },
       {
-        "title": "박하선의 씨네타운",
+        "title": "박하선의 씨네타운 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "11:00",
         "end_time": "12:00",
         "frequency": "107.7MHz"
       },
       {
-        "title": "12시엔 주현영 추석 특집 〈한가위엔 주렁주렁 열리주〉",
+        "title": "12시엔 주현영 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "12:00",
         "end_time": "14:00",
         "frequency": "107.7MHz"
       },
       {
-        "title": "두시탈출 컬투쇼 추석 특집 〈컬투쇼 2026 추석 특집 '모둠전'〉",
+        "title": "두시탈출 컬투쇼 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "14:00",
         "end_time": "16:00",
         "frequency": "107.7MHz"
       },
       {
-        "title": "황제성의 황제파워 추석 특집 〈에미야 추석이 달다〉",
+        "title": "황제성의 황제파워 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "16:00",
         "end_time": "18:00",
         "frequency": "107.7MHz"
       },
       {
-        "title": "박소현의 러브게임",
+        "title": "박소현의 러브게임 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "18:00",
         "end_time": "20:00",
         "frequency": "107.7MHz"
@@ -1864,13 +1840,13 @@
         "frequency": "103.5MHz"
       },
       {
-        "title": "이숙영의 러브FM",
+        "title": "이숙영의 러브FM 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "09:05",
         "end_time": "11:00",
         "frequency": "103.5MHz"
       },
       {
-        "title": "박연미의 목돈연구소",
+        "title": "박연미의 목돈연구소 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "11:00",
         "end_time": "12:00",
         "frequency": "103.5MHz"
@@ -1882,7 +1858,7 @@
         "frequency": "103.5MHz"
       },
       {
-        "title": "유민상의 배고픈 라디오",
+        "title": "유민상의 배고픈 라디오 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "12:05",
         "end_time": "14:00",
         "frequency": "103.5MHz"
@@ -1894,19 +1870,19 @@
         "frequency": "103.5MHz"
       },
       {
-        "title": "그대의 오후, 정엽입니다",
+        "title": "그대의 오후, 정엽입니다 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "14:05",
         "end_time": "16:00",
         "frequency": "103.5MHz"
       },
       {
-        "title": "인생은 오디션",
+        "title": "인생은 오디션 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "16:00",
         "end_time": "17:00",
         "frequency": "103.5MHz"
       },
       {
-        "title": "편상욱의 뉴스직격",
+        "title": "편상욱의 뉴스직격 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "17:00",
         "end_time": "18:00",
         "frequency": "103.5MHz"
@@ -1918,7 +1894,7 @@
         "frequency": "103.5MHz"
       },
       {
-        "title": "6시 저녁바람 김창완입니다",
+        "title": "6시 저녁바람 김창완입니다 〈함께하는 추석, 나누는 기쁨〉",
         "start_time": "18:05",
         "end_time": "20:00",
         "frequency": "103.5MHz"
@@ -2778,74 +2754,86 @@
     ],
     "tbsefm": [
       {
-        "title": "Morning Groove 23 (Rerun) 3",
+        "title": "Non-Stop Music Express 0000",
         "start_time": "00:00",
         "end_time": "00:30",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Morning Groove 23 (Rerun) 4",
+        "title": "Non-Stop Music Express 0030",
         "start_time": "00:30",
         "end_time": "01:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "MIXTAPE 1013 01 (Rerun) 1",
+        "title": "Non-Stop Music Express 0100",
         "start_time": "01:00",
         "end_time": "01:30",
         "frequency": "101.3MHz"
       },
       {
-        "title": "MIXTAPE 1013 01 (Rerun) 2",
+        "title": "Non-Stop Music Express 0130",
         "start_time": "01:30",
         "end_time": "02:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "10121013 02 (Rerun) 1",
+        "title": "Non-Stop Music Express 0200",
         "start_time": "02:00",
         "end_time": "02:30",
         "frequency": "101.3MHz"
       },
       {
-        "title": "10121013 02 (Rerun) 2",
+        "title": "Non-Stop Music Express 0230",
         "start_time": "02:30",
         "end_time": "03:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "10121013 02 (Rerun) 3",
+        "title": "Non-Stop Music Express 0300",
         "start_time": "03:00",
         "end_time": "03:30",
         "frequency": "101.3MHz"
       },
       {
-        "title": "10121013 02 (Rerun) 4",
+        "title": "Non-Stop Music Express 0330",
         "start_time": "03:30",
         "end_time": "04:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "首爾我來了 (Coming to Seoul) 04 (Rerun) 1",
+        "title": "Non-Stop Music Express 0400",
         "start_time": "04:00",
         "end_time": "04:30",
         "frequency": "101.3MHz"
       },
       {
-        "title": "首爾我來了 (Coming to Seoul) 04 (Rerun) 2",
+        "title": "Non-Stop Music Express 0430",
         "start_time": "04:30",
         "end_time": "05:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "天涯万里情 (천애만리정) 05 (Rerun) 1",
+        "title": "Non-Stop Music Express 0500",
         "start_time": "05:00",
+        "end_time": "05:30",
+        "frequency": "101.3MHz"
+      },
+      {
+        "title": "Non-Stop Music Express 0530",
+        "start_time": "05:30",
         "end_time": "06:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "天涯万里情 (천애만리정) 05 (Rerun) 3",
+        "title": "Non-Stop Music Express 0600",
         "start_time": "06:00",
+        "end_time": "06:30",
+        "frequency": "101.3MHz"
+      },
+      {
+        "title": "Non-Stop Music Express 0630",
+        "start_time": "06:30",
         "end_time": "07:00",
         "frequency": "101.3MHz"
       },
@@ -3052,6 +3040,140 @@
         "start_time": "23:30",
         "end_time": "",
         "frequency": "101.3MHz"
+      }
+    ],
+    "kookbang": [
+      {
+        "title": "KFN 논스톱 뮤직 1부",
+        "start_time": "00:00",
+        "end_time": "01:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN 논스톱 뮤직 2부",
+        "start_time": "01:00",
+        "end_time": "02:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN 논스톱 뮤직 3부",
+        "start_time": "02:00",
+        "end_time": "03:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN 논스톱 뮤직 4부",
+        "start_time": "03:00",
+        "end_time": "04:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN 논스톱 뮤직 5부",
+        "start_time": "04:00",
+        "end_time": "05:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN 논스톱 뮤직 6부",
+        "start_time": "05:00",
+        "end_time": "06:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "처음듣는 라디오 이다경입니다",
+        "start_time": "06:00",
+        "end_time": "06:57",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "이달의 호국인물",
+        "start_time": "06:57",
+        "end_time": "07:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "국방광장",
+        "start_time": "07:00",
+        "end_time": "09:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "오유경의 뮤직갤러리",
+        "start_time": "09:00",
+        "end_time": "11:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN 디펜스11",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN라디오 정오뉴스",
+        "start_time": "12:00",
+        "end_time": "12:05",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "신나는 라디오",
+        "start_time": "12:05",
+        "end_time": "14:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "김종서의 러빙유",
+        "start_time": "14:00",
+        "end_time": "15:57",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN 캠페인",
+        "start_time": "15:57",
+        "end_time": "16:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "KFN라디오 4시뉴스",
+        "start_time": "16:00",
+        "end_time": "16:05",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "미료의 프리스타일",
+        "start_time": "16:05",
+        "end_time": "18:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "NEWSROOM",
+        "start_time": "18:00",
+        "end_time": "20:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "임형주의 오늘도 수고한 당신에게",
+        "start_time": "20:00",
+        "end_time": "21:57",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "이달의 호국인물",
+        "start_time": "21:57",
+        "end_time": "22:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "명상의 시간",
+        "start_time": "22:00",
+        "end_time": "22:05",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "밤을 비추는 라디오",
+        "start_time": "22:05",
+        "end_time": "00:00",
+        "frequency": "96.7MHz"
       }
     ],
     "gugak": [
