@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-26",
-  "updated_at": "2026-09-26 10:05:21",
+  "date": "2026-09-27",
+  "updated_at": "2026-09-27 00:05:18",
   "channels": {
     "kbs1": [
       {
@@ -18,18 +18,12 @@
       {
         "title": "1R 06시뉴스",
         "start_time": "06:00",
-        "end_time": "06:10",
+        "end_time": "06:05",
         "frequency": "97.3MHz"
       },
       {
-        "title": "오늘 아침 1라디오",
-        "start_time": "06:10",
-        "end_time": "06:56",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "바른 말 고운 말",
-        "start_time": "06:56",
+        "title": "경제세미나",
+        "start_time": "06:05",
         "end_time": "06:58",
         "frequency": "97.3MHz"
       },
@@ -88,14 +82,14 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "성공예감 별책부록",
+        "title": "통일사용설명서",
         "start_time": "09:05",
-        "end_time": "09:57",
+        "end_time": "09:55",
         "frequency": "97.3MHz"
       },
       {
-        "title": "장애인식개선캠페인",
-        "start_time": "09:57",
+        "title": "이은선의 영화관, 정여울의 도서관",
+        "start_time": "09:55",
         "end_time": "09:58",
         "frequency": "97.3MHz"
       },
@@ -136,8 +130,14 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "경제세미나",
+        "title": "작은 서점",
         "start_time": "11:05",
+        "end_time": "11:57",
+        "frequency": "97.3MHz"
+      },
+      {
+        "title": "1R 홍보 스파트",
+        "start_time": "11:57",
         "end_time": "11:58",
         "frequency": "97.3MHz"
       },
@@ -256,7 +256,7 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "작은 서점",
+        "title": "성공예감 별책부록",
         "start_time": "17:05",
         "end_time": "17:57",
         "frequency": "97.3MHz"
@@ -334,7 +334,7 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "함께하는 세상",
+        "title": "국민과 함께 국군과 함께",
         "start_time": "20:30",
         "end_time": "20:56",
         "frequency": "97.3MHz"
@@ -400,7 +400,7 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "KBS 무대",
+        "title": "라디오문학관",
         "start_time": "23:05",
         "end_time": "23:55",
         "frequency": "97.3MHz"
@@ -424,13 +424,25 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "명사들의 책읽기",
+        "title": "다큐멘터리 역사를 찾아서",
         "start_time": "01:00",
+        "end_time": "01:20",
+        "frequency": "97.3MHz"
+      },
+      {
+        "title": "다큐멘터리 역사를 찾아서",
+        "start_time": "01:20",
+        "end_time": "01:40",
+        "frequency": "97.3MHz"
+      },
+      {
+        "title": "정다운 가곡",
+        "start_time": "01:40",
         "end_time": "02:00",
         "frequency": "97.3MHz"
       },
       {
-        "title": "경제로 통일로",
+        "title": "통일사용설명서",
         "start_time": "02:00",
         "end_time": "02:50",
         "frequency": "97.3MHz"
@@ -454,7 +466,7 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "KBS 한민족 방송 추석 특집 공개방송",
+        "title": "세월따라 노래따라",
         "start_time": "03:00",
         "end_time": "04:00",
         "frequency": "97.3MHz"
@@ -752,7 +764,7 @@
         "frequency": "104.9MHz"
       },
       {
-        "title": "KBS 한민족 방송 추석 특집 공개방송",
+        "title": "명사들의 책읽기",
         "start_time": "15:00",
         "end_time": "16:00",
         "frequency": "104.9MHz"
@@ -866,13 +878,13 @@
         "frequency": "104.9MHz"
       },
       {
-        "title": "KBS 한민족 방송 추석 특집 공개방송",
+        "title": "세월따라 노래따라",
         "start_time": "01:00",
         "end_time": "02:00",
         "frequency": "104.9MHz"
       },
       {
-        "title": "국악의 향기",
+        "title": "명사들의 책읽기",
         "start_time": "02:00",
         "end_time": "03:00",
         "frequency": "104.9MHz"
@@ -1262,7 +1274,7 @@
         "frequency": "95.9MHz"
       },
       {
-        "title": "김경일의 물음표",
+        "title": "라디오 북클럽 고아성입니다",
         "start_time": "06:05",
         "end_time": "07:00",
         "frequency": "95.9MHz"
@@ -1706,13 +1718,13 @@
         "frequency": "107.7MHz"
       },
       {
-        "title": "두시탈출 컬투쇼 20주년 특집 공개방송〈천안! K-POP 콘서트〉",
+        "title": "두시탈출 컬투쇼 추석 특집 〈컬투쇼 2026 추석 특집 '모둠전'〉",
         "start_time": "14:00",
         "end_time": "16:00",
         "frequency": "107.7MHz"
       },
       {
-        "title": "황제성의 황제파워 추석 특집 〈에미야 추석이 달다〉",
+        "title": "황제성의 황제파워",
         "start_time": "16:00",
         "end_time": "18:00",
         "frequency": "107.7MHz"
@@ -1724,7 +1736,7 @@
         "frequency": "107.7MHz"
       },
       {
-        "title": "웬디의 영스트리트 추석 특집 〈추석엔 영크크〉",
+        "title": "웬디의 영스트리트",
         "start_time": "20:00",
         "end_time": "22:00",
         "frequency": "107.7MHz"
@@ -2992,19 +3004,19 @@
         "frequency": "99.9MHz"
       },
       {
-        "title": "(재) 오늘의 기후 1부",
+        "title": "(재) 오늘의 기후 스페셜 1부",
         "start_time": "01:00",
         "end_time": "02:00",
         "frequency": "99.9MHz"
       },
       {
-        "title": "(재) 오늘의 기후 2부",
+        "title": "(재) 오늘의 기후 스페셜 2부",
         "start_time": "02:00",
         "end_time": "03:00",
         "frequency": "99.9MHz"
       },
       {
-        "title": "(재) 돈키오테",
+        "title": "(재) 고주룡의 참쉬운 경제 99.9",
         "start_time": "03:00",
         "end_time": "04:00",
         "frequency": "99.9MHz"
@@ -3302,56 +3314,44 @@
     ],
     "ebs": [
       {
-        "title": "타노시이 중급 일본어",
+        "title": "야사시이 초급 일본어(월)(재)",
         "start_time": "05:00",
         "end_time": "05:20",
         "frequency": "104.5MHz"
       },
       {
-        "title": "중급 중국어",
+        "title": "야사시이 초급 일본어(화)(재)",
         "start_time": "05:20",
         "end_time": "05:40",
         "frequency": "104.5MHz"
       },
       {
-        "title": "김대균 토익킹",
+        "title": "야사시이 초급 일본어(수)(재)",
         "start_time": "05:40",
         "end_time": "06:00",
         "frequency": "104.5MHz"
       },
       {
-        "title": "Easy Writing",
+        "title": "초급 중국어(월)(재)",
         "start_time": "06:00",
         "end_time": "06:20",
         "frequency": "104.5MHz"
       },
       {
-        "title": "귀가 트이는 영어",
+        "title": "초급 중국어(화)(재)",
         "start_time": "06:20",
         "end_time": "06:40",
         "frequency": "104.5MHz"
       },
       {
-        "title": "입이 트이는 영어",
+        "title": "초급 중국어(수)(재)",
         "start_time": "06:40",
         "end_time": "07:00",
         "frequency": "104.5MHz"
       },
       {
-        "title": "Start English(영어회화 레벨1)",
+        "title": "오디오 어학당 스페셜",
         "start_time": "07:00",
-        "end_time": "07:20",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "Easy English(영어회화 레벨2)",
-        "start_time": "07:20",
-        "end_time": "07:40",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "Power English(영어회화 레벨3)",
-        "start_time": "07:40",
         "end_time": "08:00",
         "frequency": "104.5MHz"
       },
@@ -3380,13 +3380,13 @@
         "frequency": "104.5MHz"
       },
       {
-        "title": "윤고은의 EBS 북 카페(1부)(월)(선별재방)",
+        "title": "윤고은의 EBS 북 카페(1부)(화)(선별재방)",
         "start_time": "12:00",
         "end_time": "13:00",
         "frequency": "104.5MHz"
       },
       {
-        "title": "윤고은의 EBS 북 카페(2부)(월)(선별재방)",
+        "title": "윤고은의 EBS 북 카페(2부)(화)(선별재방)",
         "start_time": "13:00",
         "end_time": "14:00",
         "frequency": "104.5MHz"
@@ -3404,85 +3404,73 @@
         "frequency": "104.5MHz"
       },
       {
-        "title": "아이돌 한국어(화)(선별재방)",
+        "title": "아이돌 한국어(수)(선별재방)",
         "start_time": "16:00",
         "end_time": "17:00",
         "frequency": "104.5MHz"
       },
       {
-        "title": "이브닝 스페셜(1부)(수)(선별재방)",
+        "title": "이브닝 스페셜(1부)(금)(선별재방)",
         "start_time": "17:00",
         "end_time": "18:00",
         "frequency": "104.5MHz"
       },
       {
-        "title": "이브닝 스페셜(2부)(수)(선별재방)",
+        "title": "이브닝 스페셜(2부)(금)(선별재방)",
         "start_time": "18:00",
         "end_time": "19:00",
         "frequency": "104.5MHz"
       },
       {
-        "title": "Start English(영어회화 레벨1)(재)",
+        "title": "오디오 어학당 스페셜(재)",
         "start_time": "19:00",
-        "end_time": "19:20",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "Easy English(영어회화 레벨2)(재)",
-        "start_time": "19:20",
-        "end_time": "19:40",
-        "frequency": "104.5MHz"
-      },
-      {
-        "title": "Power English(영어회화 레벨3)(재)",
-        "start_time": "19:40",
         "end_time": "20:00",
         "frequency": "104.5MHz"
       },
       {
-        "title": "윤고은의 EBS 북 카페(1부)(수)(선별재방)",
+        "title": "윤고은의 EBS 북 카페(1부)(목)(선별재방)",
         "start_time": "20:00",
         "end_time": "21:00",
         "frequency": "104.5MHz"
       },
       {
-        "title": "윤고은의 EBS 북 카페(2부)(수)(선별재방)",
+        "title": "윤고은의 EBS 북 카페(2부)(목)(선별재방)",
         "start_time": "21:00",
         "end_time": "22:00",
         "frequency": "104.5MHz"
       },
       {
-        "title": "야사시이 초급 일본어(월)(재)(전주재방)",
+        "title": "타노시이 중급 일본어(목)(재)",
         "start_time": "22:00",
         "end_time": "22:20",
         "frequency": "104.5MHz"
       },
       {
-        "title": "야사시이 초급 일본어(화)(재)(전주재방)",
+        "title": "타노시이 중급 일본어(금)(재)",
         "start_time": "22:20",
         "end_time": "22:40",
         "frequency": "104.5MHz"
       },
       {
-        "title": "야사시이 초급 일본어(수)(재)(전주재방)",
+        "title": "타노시이 중급 일본어(토)(재)",
         "start_time": "22:40",
         "end_time": "23:00",
         "frequency": "104.5MHz"
       },
       {
-        "title": "초급 중국어(월)(재)(전주재방)",
+        "title": "중급 중국어(목)(재)",
         "start_time": "23:00",
         "end_time": "23:20",
         "frequency": "104.5MHz"
       },
       {
-        "title": "초급 중국어(화)(재)(전주재방)",
+        "title": "중급 중국어(금)(재)",
         "start_time": "23:20",
         "end_time": "23:40",
         "frequency": "104.5MHz"
       },
       {
-        "title": "초급 중국어(수)(재)(전주재방)",
+        "title": "중급 중국어(토)(재)",
         "start_time": "23:40",
         "end_time": "00:00",
         "frequency": "104.5MHz"
