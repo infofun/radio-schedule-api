@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-30",
-  "updated_at": "2026-09-30 10:05:19",
+  "date": "2026-10-01",
+  "updated_at": "2026-10-01 00:05:21",
   "channels": {
     "kbs1": [
       {
@@ -1552,7 +1552,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "제로베이스원의 친한친구",
+        "title": "IDOL RADIO 핫차트 아핫",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -1894,7 +1894,7 @@
         "frequency": "103.5MHz"
       },
       {
-        "title": "편상욱의 뉴스직격",
+        "title": "최선호의 뉴스직격",
         "start_time": "17:00",
         "end_time": "18:00",
         "frequency": "103.5MHz"
@@ -2436,42 +2436,84 @@
       {
         "title": "권순우의 새벽공감 1부",
         "start_time": "00:00",
+        "end_time": "00:30",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "권순우의 새벽공감 2부",
+        "start_time": "00:30",
         "end_time": "01:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 01",
+        "title": "TBS와 함께 01 1부",
         "start_time": "01:00",
+        "end_time": "01:30",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 01 2부",
+        "start_time": "01:30",
         "end_time": "02:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 02",
+        "title": "TBS와 함께 02 1부",
         "start_time": "02:00",
+        "end_time": "02:30",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 02 2부",
+        "start_time": "02:30",
         "end_time": "03:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 03",
+        "title": "TBS와 함께 03 1부",
         "start_time": "03:00",
+        "end_time": "03:30",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 03 2부",
+        "start_time": "03:30",
         "end_time": "04:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 04",
+        "title": "TBS와 함께 04 1부",
         "start_time": "04:00",
+        "end_time": "04:30",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 04 2부",
+        "start_time": "04:30",
         "end_time": "05:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 05",
+        "title": "TBS와 함께 05 1부",
         "start_time": "05:00",
+        "end_time": "05:30",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 05 2부",
+        "start_time": "05:30",
         "end_time": "06:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 06",
+        "title": "TBS와 함께 06 1부",
         "start_time": "06:00",
+        "end_time": "06:30",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 06 2부",
+        "start_time": "06:30",
         "end_time": "07:00",
         "frequency": "95.1MHz"
       },
@@ -2998,6 +3040,12 @@
       {
         "title": "오유경의 뮤직갤러리",
         "start_time": "09:00",
+        "end_time": "10:00",
+        "frequency": "96.7MHz"
+      },
+      {
+        "title": "국군의 날 기념식 중계",
+        "start_time": "10:00",
         "end_time": "11:00",
         "frequency": "96.7MHz"
       },
@@ -3077,7 +3125,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3514,13 +3562,13 @@
     ],
     "ebs": [
       {
-        "title": "야사시이 초급 일본어",
+        "title": "타노시이 중급 일본어",
         "start_time": "05:00",
         "end_time": "05:20",
         "frequency": "104.5MHz"
       },
       {
-        "title": "초급 중국어",
+        "title": "중급 중국어",
         "start_time": "05:20",
         "end_time": "05:40",
         "frequency": "104.5MHz"
