@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-14",
-  "updated_at": "2026-10-14 10:05:17",
+  "date": "2026-10-15",
+  "updated_at": "2026-10-15 00:05:22",
   "channels": {
     "kbs1": [
       {
@@ -996,12 +996,12 @@
       {
         "title": "세상의 모든 음악",
         "start_time": "18:00",
-        "end_time": "20:00",
+        "end_time": "19:30",
         "frequency": "93.1MHz"
       },
       {
-        "title": "FM 실황음악",
-        "start_time": "20:00",
+        "title": "2026년 10월 클래식FM 실황특집 중계방송",
+        "start_time": "19:30",
         "end_time": "21:40",
         "frequency": "93.1MHz"
       },
@@ -1552,7 +1552,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "제로베이스원의 친한친구",
+        "title": "IDOL RADIO 핫차트 아핫",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -2500,7 +2500,7 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 05 1부",
+        "title": "TBS와 함께 05 2부",
         "start_time": "05:30",
         "end_time": "06:00",
         "frequency": "95.1MHz"
@@ -3119,7 +3119,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3556,13 +3556,13 @@
     ],
     "ebs": [
       {
-        "title": "야사시이 초급 일본어",
+        "title": "타노시이 중급 일본어",
         "start_time": "05:00",
         "end_time": "05:20",
         "frequency": "104.5MHz"
       },
       {
-        "title": "초급 중국어",
+        "title": "중급 중국어",
         "start_time": "05:20",
         "end_time": "05:40",
         "frequency": "104.5MHz"
