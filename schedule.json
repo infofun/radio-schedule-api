@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "updated_at": "2026-10-20 10:05:19",
+  "date": "2026-10-21",
+  "updated_at": "2026-10-21 00:05:23",
   "channels": {
     "kbs1": [
       {
@@ -346,7 +346,7 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "KBS 열린토론",
+        "title": "KBS 열린토론 - 200조의 선택",
         "start_time": "19:20",
         "end_time": "20:28",
         "frequency": "97.3MHz"
@@ -442,20 +442,8 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "국악의 향기",
+        "title": "KBS 열린토론 - 200조의 선택",
         "start_time": "01:00",
-        "end_time": "02:00",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "이은선의 영화관, 정여울의 도서관",
-        "start_time": "02:00",
-        "end_time": "02:03",
-        "frequency": "97.3MHz"
-      },
-      {
-        "title": "아름다운 우리가곡",
-        "start_time": "02:03",
         "end_time": "02:08",
         "frequency": "97.3MHz"
       },
@@ -1784,7 +1772,7 @@
         "frequency": "107.7MHz"
       },
       {
-        "title": "두시탈출 컬투쇼 특집 [컬투쇼 웨딩싱어]",
+        "title": "두시탈출 컬투쇼",
         "start_time": "14:00",
         "end_time": "16:00",
         "frequency": "107.7MHz"
@@ -2512,7 +2500,7 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 05 2부",
+        "title": "TBS와 함께 05 1부",
         "start_time": "05:30",
         "end_time": "06:00",
         "frequency": "95.1MHz"
@@ -2596,13 +2584,13 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 1부",
+        "title": "TBS 정오의 티어로즈 1부",
         "start_time": "12:05",
         "end_time": "12:30",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 2부",
+        "title": "TBS 정오의 티어로즈 2부",
         "start_time": "12:30",
         "end_time": "13:00",
         "frequency": "95.1MHz"
@@ -3131,7 +3119,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
