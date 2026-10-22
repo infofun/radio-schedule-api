@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-22",
-  "updated_at": "2026-10-22 10:05:19",
+  "date": "2026-10-23",
+  "updated_at": "2026-10-23 00:05:23",
   "channels": {
     "kbs1": [
       {
@@ -960,12 +960,6 @@
       {
         "title": "가정음악",
         "start_time": "09:00",
-        "end_time": "10:00",
-        "frequency": "93.1MHz"
-      },
-      {
-        "title": "가정음악",
-        "start_time": "10:00",
         "end_time": "11:00",
         "frequency": "93.1MHz"
       },
@@ -1558,7 +1552,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "IDOL RADIO 핫차트 아핫",
+        "title": "IDOL RADIO 시즌4",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -1754,7 +1748,7 @@
         "frequency": "107.7MHz"
       },
       {
-        "title": "김영철의 파워FM",
+        "title": "김영철의 파워FM 10주년 특집 [철파엠 조식잔치, 10년 만점의 10점]",
         "start_time": "07:00",
         "end_time": "09:00",
         "frequency": "107.7MHz"
@@ -1948,98 +1942,7 @@
         "frequency": "103.5MHz"
       }
     ],
-    "sbsDmb": [
-      {
-        "title": "Hits 20 (재)",
-        "start_time": "00:00",
-        "end_time": "02:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "Relax 20 (재)",
-        "start_time": "02:00",
-        "end_time": "04:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "K-POP 20 (재)",
-        "start_time": "04:00",
-        "end_time": "05:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "Indie 20 (재)",
-        "start_time": "05:00",
-        "end_time": "06:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "Pop 20 (재)",
-        "start_time": "06:00",
-        "end_time": "07:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "Morning 20",
-        "start_time": "07:00",
-        "end_time": "09:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "Relax 20",
-        "start_time": "09:00",
-        "end_time": "11:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "K-POP 20",
-        "start_time": "11:00",
-        "end_time": "12:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "Hits 20",
-        "start_time": "12:00",
-        "end_time": "14:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "Oldies 20",
-        "start_time": "14:00",
-        "end_time": "16:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "Power 20",
-        "start_time": "16:00",
-        "end_time": "18:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "Love 20",
-        "start_time": "18:00",
-        "end_time": "20:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "Indie 20",
-        "start_time": "20:00",
-        "end_time": "21:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "Pop 20",
-        "start_time": "21:00",
-        "end_time": "22:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      },
-      {
-        "title": "Classic 20",
-        "start_time": "22:00",
-        "end_time": "24:00",
-        "frequency": "인터넷 전용(고릴라M)"
-      }
-    ],
+    "sbsDmb": [],
     "ytn": [
       {
         "title": "YTN24",
@@ -3125,7 +3028,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3190,7 +3093,7 @@
         "frequency": "99.1MHz"
       },
       {
-        "title": "FM국악당",
+        "title": "FM국악당 [광주]",
         "start_time": "20:00",
         "end_time": "21:00",
         "frequency": "99.1MHz"
