@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-29",
-  "updated_at": "2026-10-29 10:05:20",
+  "date": "2026-10-30",
+  "updated_at": "2026-10-30 00:05:22",
   "channels": {
     "kbs1": [
       {
@@ -436,7 +436,7 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "문화 공감",
+        "title": "한민족방송 '시의 날' 특집 공개방송 '내 안의 시인을 깨우다'",
         "start_time": "00:05",
         "end_time": "01:00",
         "frequency": "97.3MHz"
@@ -830,7 +830,7 @@
         "frequency": "104.9MHz"
       },
       {
-        "title": "문화 공감",
+        "title": "한민족방송 '시의 날' 특집 공개방송 '내 안의 시인을 깨우다'",
         "start_time": "17:00",
         "end_time": "17:55",
         "frequency": "104.9MHz"
@@ -1000,14 +1000,8 @@
         "frequency": "93.1MHz"
       },
       {
-        "title": "FM 실황음악",
+        "title": "2026년 10월 클래식FM 실황특집 중계방송",
         "start_time": "20:00",
-        "end_time": "21:40",
-        "frequency": "93.1MHz"
-      },
-      {
-        "title": "정다운 가곡",
-        "start_time": "21:40",
         "end_time": "22:00",
         "frequency": "93.1MHz"
       },
@@ -1552,7 +1546,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "IDOL RADIO 핫차트 아핫",
+        "title": "IDOL RADIO 시즌4",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -3119,7 +3113,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3184,7 +3178,7 @@
         "frequency": "99.1MHz"
       },
       {
-        "title": "FM국악당",
+        "title": "FM국악당 [광주]",
         "start_time": "20:00",
         "end_time": "21:00",
         "frequency": "99.1MHz"
