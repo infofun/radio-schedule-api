@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updated_at": "2026-11-02 00:05:19",
+  "updated_at": "2026-11-02 05:05:21",
   "channels": {
     "kbs1": [
       {
@@ -3131,7 +3131,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "",
+        "start_time": "00:00",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3202,7 +3202,7 @@
         "frequency": "99.1MHz"
       },
       {
-        "title": "황인찬의 글과 음악의 온도",
+        "title": "구술프로젝트, 남기고 싶은 이야기 - 김경배 명창",
         "start_time": "21:00",
         "end_time": "22:00",
         "frequency": "99.1MHz"
