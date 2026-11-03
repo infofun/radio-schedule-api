@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-03",
-  "updated_at": "2026-11-03 10:05:23",
+  "date": "2026-11-04",
+  "updated_at": "2026-11-04 00:05:21",
   "channels": {
     "kbs1": [
       {
@@ -2500,7 +2500,7 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 05 2부",
+        "title": "TBS와 함께 05 1부",
         "start_time": "05:30",
         "end_time": "06:00",
         "frequency": "95.1MHz"
@@ -2584,13 +2584,13 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 1부",
+        "title": "TBS 정오의 티어로즈 1부",
         "start_time": "12:05",
         "end_time": "12:30",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 2부",
+        "title": "TBS 정오의 티어로즈 2부",
         "start_time": "12:30",
         "end_time": "13:00",
         "frequency": "95.1MHz"
@@ -3119,7 +3119,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3282,32 +3282,8 @@
         "frequency": "99.9MHz"
       },
       {
-        "title": "OBS라디오 10시 뉴스",
+        "title": "특별 생방송 경기도의회 대집행부 질문",
         "start_time": "10:00",
-        "end_time": "10:04",
-        "frequency": "99.9MHz"
-      },
-      {
-        "title": "모닝브레이크 3부",
-        "start_time": "10:04",
-        "end_time": "10:30",
-        "frequency": "99.9MHz"
-      },
-      {
-        "title": "모닝브레이크 4부",
-        "start_time": "10:30",
-        "end_time": "11:00",
-        "frequency": "99.9MHz"
-      },
-      {
-        "title": "돈키오테 1부",
-        "start_time": "11:00",
-        "end_time": "11:30",
-        "frequency": "99.9MHz"
-      },
-      {
-        "title": "돈키오테 2부",
-        "start_time": "11:30",
         "end_time": "12:00",
         "frequency": "99.9MHz"
       },
@@ -3348,38 +3324,14 @@
         "frequency": "99.9MHz"
       },
       {
-        "title": "이창명의 특송 1부",
+        "title": "(재) 나만의 Playlist",
         "start_time": "14:04",
         "end_time": "14:30",
         "frequency": "99.9MHz"
       },
       {
-        "title": "이창명의 특송 2부",
+        "title": "특별 생방송 경기도의회 대집행부 질문",
         "start_time": "14:30",
-        "end_time": "15:00",
-        "frequency": "99.9MHz"
-      },
-      {
-        "title": "이창명의 특송 3부",
-        "start_time": "15:00",
-        "end_time": "15:30",
-        "frequency": "99.9MHz"
-      },
-      {
-        "title": "이창명의 특송 4부",
-        "start_time": "15:30",
-        "end_time": "16:00",
-        "frequency": "99.9MHz"
-      },
-      {
-        "title": "OBS라디오 4시 뉴스",
-        "start_time": "16:00",
-        "end_time": "16:04",
-        "frequency": "99.9MHz"
-      },
-      {
-        "title": "파워라이브 1부",
-        "start_time": "16:04",
         "end_time": "16:30",
         "frequency": "99.9MHz"
       },
