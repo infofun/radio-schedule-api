@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-05",
-  "updated_at": "2026-11-05 10:05:22",
+  "date": "2026-11-06",
+  "updated_at": "2026-11-06 00:05:21",
   "channels": {
     "kbs1": [
       {
@@ -280,7 +280,7 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "경제쇼 특집 K-INDUSTRY 줌인 보고서",
+        "title": "경제쇼",
         "start_time": "16:05",
         "end_time": "16:55",
         "frequency": "97.3MHz"
@@ -1122,26 +1122,14 @@
         "frequency": "89.1MHz"
       },
       {
-        "title": "폴킴의 가요광장",
+        "title": "KBS 쿨FM 스튜디오 콩 페스티벌 <가요광장 40주년 특집>",
         "start_time": "12:00",
-        "end_time": "12:30",
-        "frequency": "89.1MHz"
-      },
-      {
-        "title": "폴킴의 가요광장",
-        "start_time": "12:30",
         "end_time": "13:00",
         "frequency": "89.1MHz"
       },
       {
-        "title": "폴킴의 가요광장",
+        "title": "KBS 쿨FM 스튜디오 콩 페스티벌 <가요광장 40주년 특집>",
         "start_time": "13:00",
-        "end_time": "13:30",
-        "frequency": "89.1MHz"
-      },
-      {
-        "title": "폴킴의 가요광장",
-        "start_time": "13:30",
         "end_time": "14:00",
         "frequency": "89.1MHz"
       },
@@ -1272,7 +1260,7 @@
         "frequency": "89.1MHz"
       },
       {
-        "title": "폴킴의 가요광장",
+        "title": "KBS 쿨FM 스튜디오 콩 페스티벌 <가요광장 40주년 특집>",
         "start_time": "01:00",
         "end_time": "01:59",
         "frequency": "89.1MHz"
@@ -1284,7 +1272,7 @@
         "frequency": "89.1MHz"
       },
       {
-        "title": "폴킴의 가요광장",
+        "title": "KBS 쿨FM 스튜디오 콩 페스티벌 <가요광장 40주년 특집>",
         "start_time": "02:00",
         "end_time": "02:59",
         "frequency": "89.1MHz"
@@ -1552,7 +1540,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "IDOL RADIO 핫차트 아핫",
+        "title": "IDOL RADIO 시즌4",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -3119,7 +3107,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3184,7 +3172,7 @@
         "frequency": "99.1MHz"
       },
       {
-        "title": "FM국악당",
+        "title": "FM국악당 [광주]",
         "start_time": "20:00",
         "end_time": "21:00",
         "frequency": "99.1MHz"
