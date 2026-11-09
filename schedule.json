@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-09",
-  "updated_at": "2026-11-09 10:05:26",
+  "date": "2026-11-10",
+  "updated_at": "2026-11-10 00:05:23",
   "channels": {
     "kbs1": [
       {
@@ -2434,62 +2434,32 @@
     ],
     "tbs": [
       {
-        "title": "권순우의 새벽공감 1부",
+        "title": "계획정파",
         "start_time": "00:00",
-        "end_time": "00:30",
-        "frequency": "95.1MHz"
-      },
-      {
-        "title": "권순우의 새벽공감 2부",
-        "start_time": "00:30",
         "end_time": "01:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 01 1부",
+        "title": "계획정파",
         "start_time": "01:00",
-        "end_time": "01:30",
-        "frequency": "95.1MHz"
-      },
-      {
-        "title": "TBS와 함께 01 2부",
-        "start_time": "01:30",
         "end_time": "02:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 02 1부",
+        "title": "계획정파",
         "start_time": "02:00",
-        "end_time": "02:30",
-        "frequency": "95.1MHz"
-      },
-      {
-        "title": "TBS와 함께 02 2부",
-        "start_time": "02:30",
         "end_time": "03:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 03 1부",
+        "title": "계획정파",
         "start_time": "03:00",
-        "end_time": "03:30",
-        "frequency": "95.1MHz"
-      },
-      {
-        "title": "TBS와 함께 03 2부",
-        "start_time": "03:30",
         "end_time": "04:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 04 1부",
+        "title": "계획정파",
         "start_time": "04:00",
-        "end_time": "04:30",
-        "frequency": "95.1MHz"
-      },
-      {
-        "title": "TBS와 함께 04 2부",
-        "start_time": "04:30",
         "end_time": "05:00",
         "frequency": "95.1MHz"
       },
@@ -2730,86 +2700,44 @@
     ],
     "tbsefm": [
       {
-        "title": "Non-Stop Music Express 0000",
+        "title": "계획정파",
         "start_time": "00:00",
-        "end_time": "00:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Non-Stop Music Express 0030",
-        "start_time": "00:30",
         "end_time": "01:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0100",
+        "title": "계획정파",
         "start_time": "01:00",
-        "end_time": "01:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Non-Stop Music Express 0130",
-        "start_time": "01:30",
         "end_time": "02:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0200",
+        "title": "계획정파",
         "start_time": "02:00",
-        "end_time": "02:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Non-Stop Music Express 0230",
-        "start_time": "02:30",
         "end_time": "03:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0300",
+        "title": "계획정파",
         "start_time": "03:00",
-        "end_time": "03:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Non-Stop Music Express 0330",
-        "start_time": "03:30",
         "end_time": "04:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0400",
+        "title": "계획정파",
         "start_time": "04:00",
-        "end_time": "04:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Non-Stop Music Express 0430",
-        "start_time": "04:30",
         "end_time": "05:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0500",
+        "title": "天涯万里情 (천애만리정) 05 (Rerun) 1",
         "start_time": "05:00",
-        "end_time": "05:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Non-Stop Music Express 0530",
-        "start_time": "05:30",
         "end_time": "06:00",
         "frequency": "101.3MHz"
       },
       {
-        "title": "Non-Stop Music Express 0600",
+        "title": "天涯万里情 (천애만리정) 05 (Rerun) 3",
         "start_time": "06:00",
-        "end_time": "06:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Non-Stop Music Express 0630",
-        "start_time": "06:30",
         "end_time": "07:00",
         "frequency": "101.3MHz"
       },
@@ -2954,42 +2882,6 @@
       {
         "title": "10121013 18 (Rerun) 4",
         "start_time": "19:30",
-        "end_time": "20:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "首爾我來了 (Coming to Seoul) 20 (Rerun) 1",
-        "start_time": "20:00",
-        "end_time": "20:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "首爾我來了 (Coming to Seoul) 20 (Rerun) 2",
-        "start_time": "20:30",
-        "end_time": "21:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "天涯万里情 (천애만리정) 21 (Rerun) 1",
-        "start_time": "21:00",
-        "end_time": "22:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "天涯万里情 (천애만리정) 21 (Rerun) 3",
-        "start_time": "22:00",
-        "end_time": "23:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Morning Groove 23 (Rerun) 1",
-        "start_time": "23:00",
-        "end_time": "23:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Morning Groove 23 (Rerun) 2",
-        "start_time": "23:30",
         "end_time": "",
         "frequency": "101.3MHz"
       }
@@ -3131,7 +3023,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3222,19 +3114,19 @@
         "frequency": "99.9MHz"
       },
       {
-        "title": "(재) 오늘의 기후 스페셜 1부",
+        "title": "(재) 오늘의 기후 1부",
         "start_time": "01:00",
         "end_time": "02:00",
         "frequency": "99.9MHz"
       },
       {
-        "title": "(재) 오늘의 기후 스페셜 2부",
+        "title": "(재) 오늘의 기후 2부",
         "start_time": "02:00",
         "end_time": "03:00",
         "frequency": "99.9MHz"
       },
       {
-        "title": "(재) 고주룡의 참쉬운 경제 99.9",
+        "title": "(재) 돈키오테",
         "start_time": "03:00",
         "end_time": "04:00",
         "frequency": "99.9MHz"
