@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-10",
-  "updated_at": "2026-11-10 10:05:20",
+  "date": "2026-11-11",
+  "updated_at": "2026-11-11 00:05:31",
   "channels": {
     "kbs1": [
       {
@@ -2434,32 +2434,62 @@
     ],
     "tbs": [
       {
-        "title": "계획정파",
+        "title": "권순우의 새벽공감 1부",
         "start_time": "00:00",
+        "end_time": "00:30",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "권순우의 새벽공감 2부",
+        "start_time": "00:30",
         "end_time": "01:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "계획정파",
+        "title": "TBS와 함께 01 1부",
         "start_time": "01:00",
+        "end_time": "01:30",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 01 2부",
+        "start_time": "01:30",
         "end_time": "02:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "계획정파",
+        "title": "TBS와 함께 02 1부",
         "start_time": "02:00",
+        "end_time": "02:30",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 02 2부",
+        "start_time": "02:30",
         "end_time": "03:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "계획정파",
+        "title": "TBS와 함께 03 1부",
         "start_time": "03:00",
+        "end_time": "03:30",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 03 2부",
+        "start_time": "03:30",
         "end_time": "04:00",
         "frequency": "95.1MHz"
       },
       {
-        "title": "계획정파",
+        "title": "TBS와 함께 04 1부",
         "start_time": "04:00",
+        "end_time": "04:30",
+        "frequency": "95.1MHz"
+      },
+      {
+        "title": "TBS와 함께 04 2부",
+        "start_time": "04:30",
         "end_time": "05:00",
         "frequency": "95.1MHz"
       },
@@ -2470,7 +2500,7 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 05 2부",
+        "title": "TBS와 함께 05 1부",
         "start_time": "05:30",
         "end_time": "06:00",
         "frequency": "95.1MHz"
@@ -2554,13 +2584,13 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 1부",
+        "title": "TBS 정오의 티어로즈 1부",
         "start_time": "12:05",
         "end_time": "12:30",
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 12 2부",
+        "title": "TBS 정오의 티어로즈 2부",
         "start_time": "12:30",
         "end_time": "13:00",
         "frequency": "95.1MHz"
@@ -2696,194 +2726,6 @@
         "start_time": "23:30",
         "end_time": "",
         "frequency": "95.1MHz"
-      }
-    ],
-    "tbsefm": [
-      {
-        "title": "계획정파",
-        "start_time": "00:00",
-        "end_time": "01:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "계획정파",
-        "start_time": "01:00",
-        "end_time": "02:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "계획정파",
-        "start_time": "02:00",
-        "end_time": "03:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "계획정파",
-        "start_time": "03:00",
-        "end_time": "04:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "계획정파",
-        "start_time": "04:00",
-        "end_time": "05:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "天涯万里情 (천애만리정) 05 (Rerun) 1",
-        "start_time": "05:00",
-        "end_time": "06:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "天涯万里情 (천애만리정) 05 (Rerun) 3",
-        "start_time": "06:00",
-        "end_time": "07:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Morning Groove 1",
-        "start_time": "07:00",
-        "end_time": "07:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Morning Groove 2",
-        "start_time": "07:30",
-        "end_time": "08:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Morning Groove 3",
-        "start_time": "08:00",
-        "end_time": "08:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Morning Groove 4",
-        "start_time": "08:30",
-        "end_time": "09:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "MIXTAPE 1013 1",
-        "start_time": "09:00",
-        "end_time": "09:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "MIXTAPE 1013 2",
-        "start_time": "09:30",
-        "end_time": "10:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "10121013 1",
-        "start_time": "10:00",
-        "end_time": "10:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "10121013 2",
-        "start_time": "10:30",
-        "end_time": "11:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "10121013 3",
-        "start_time": "11:00",
-        "end_time": "11:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "10121013 4",
-        "start_time": "11:30",
-        "end_time": "12:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "首爾我來了 (Coming to Seoul) 1",
-        "start_time": "12:00",
-        "end_time": "12:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "首爾我來了 (Coming to Seoul) 2",
-        "start_time": "12:30",
-        "end_time": "13:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "天涯万里情 (천애만리정) 1",
-        "start_time": "13:00",
-        "end_time": "14:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "天涯万里情 (천애만리정) 3",
-        "start_time": "14:00",
-        "end_time": "15:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Morning Groove 15 (Rerun) 1",
-        "start_time": "15:00",
-        "end_time": "15:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Morning Groove 15 (Rerun) 2",
-        "start_time": "15:30",
-        "end_time": "16:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Morning Groove 15 (Rerun) 3",
-        "start_time": "16:00",
-        "end_time": "16:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "Morning Groove 15 (Rerun) 4",
-        "start_time": "16:30",
-        "end_time": "17:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "MIXTAPE 1013 17 (Rerun) 1",
-        "start_time": "17:00",
-        "end_time": "17:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "MIXTAPE 1013 17 (Rerun) 2",
-        "start_time": "17:30",
-        "end_time": "18:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "10121013 18 (Rerun) 1",
-        "start_time": "18:00",
-        "end_time": "18:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "10121013 18 (Rerun) 2",
-        "start_time": "18:30",
-        "end_time": "19:00",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "10121013 18 (Rerun) 3",
-        "start_time": "19:00",
-        "end_time": "19:30",
-        "frequency": "101.3MHz"
-      },
-      {
-        "title": "10121013 18 (Rerun) 4",
-        "start_time": "19:30",
-        "end_time": "",
-        "frequency": "101.3MHz"
       }
     ],
     "kookbang": [
@@ -3023,7 +2865,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
