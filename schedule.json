@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-18",
-  "updated_at": "2026-11-18 10:05:20",
+  "date": "2026-11-19",
+  "updated_at": "2026-11-19 00:05:22",
   "channels": {
     "kbs1": [
       {
@@ -280,7 +280,7 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "경제쇼",
+        "title": "경제쇼 특집 K-INDUSTRY 줌인 보고서",
         "start_time": "16:05",
         "end_time": "16:55",
         "frequency": "97.3MHz"
@@ -960,6 +960,12 @@
       {
         "title": "가정음악",
         "start_time": "09:00",
+        "end_time": "10:00",
+        "frequency": "93.1MHz"
+      },
+      {
+        "title": "가정음악",
+        "start_time": "10:00",
         "end_time": "11:00",
         "frequency": "93.1MHz"
       },
@@ -1552,7 +1558,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "제로베이스원의 친한친구",
+        "title": "IDOL RADIO 핫차트 아핫",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -2500,7 +2506,7 @@
         "frequency": "95.1MHz"
       },
       {
-        "title": "TBS와 함께 05 1부",
+        "title": "TBS와 함께 05 2부",
         "start_time": "05:30",
         "end_time": "06:00",
         "frequency": "95.1MHz"
@@ -3119,7 +3125,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3156,12 +3162,6 @@
       {
         "title": "음악이 흐르는 마루 [전주]",
         "start_time": "12:00",
-        "end_time": "14:00",
-        "frequency": "99.1MHz"
-      },
-      {
-        "title": "故 배정혜 명무 추모 특집 방송",
-        "start_time": "13:00",
         "end_time": "14:00",
         "frequency": "99.1MHz"
       },
@@ -3562,13 +3562,13 @@
     ],
     "ebs": [
       {
-        "title": "야사시이 초급 일본어",
+        "title": "타노시이 중급 일본어",
         "start_time": "05:00",
         "end_time": "05:20",
         "frequency": "104.5MHz"
       },
       {
-        "title": "초급 중국어",
+        "title": "중급 중국어",
         "start_time": "05:20",
         "end_time": "05:40",
         "frequency": "104.5MHz"
