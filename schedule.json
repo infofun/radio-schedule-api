@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-19",
-  "updated_at": "2026-11-19 10:05:23",
+  "date": "2026-11-20",
+  "updated_at": "2026-11-20 00:05:21",
   "channels": {
     "kbs1": [
       {
@@ -280,7 +280,7 @@
         "frequency": "97.3MHz"
       },
       {
-        "title": "경제쇼 특집 K-INDUSTRY 줌인 보고서",
+        "title": "경제쇼",
         "start_time": "16:05",
         "end_time": "16:55",
         "frequency": "97.3MHz"
@@ -960,12 +960,6 @@
       {
         "title": "가정음악",
         "start_time": "09:00",
-        "end_time": "10:00",
-        "frequency": "93.1MHz"
-      },
-      {
-        "title": "가정음악",
-        "start_time": "10:00",
         "end_time": "11:00",
         "frequency": "93.1MHz"
       },
@@ -1558,7 +1552,7 @@
         "frequency": "91.9MHz"
       },
       {
-        "title": "IDOL RADIO 핫차트 아핫",
+        "title": "IDOL RADIO 시즌4",
         "start_time": "22:00",
         "end_time": "00:00",
         "frequency": "91.9MHz"
@@ -3125,7 +3119,7 @@
     "gugak": [
       {
         "title": "송지원의 국악산책(재)",
-        "start_time": "00:00",
+        "start_time": "",
         "end_time": "02:00",
         "frequency": "99.1MHz"
       },
@@ -3190,7 +3184,7 @@
         "frequency": "99.1MHz"
       },
       {
-        "title": "FM국악당",
+        "title": "FM국악당 [광주]",
         "start_time": "20:00",
         "end_time": "21:00",
         "frequency": "99.1MHz"
